@@ -1,0 +1,41 @@
+You are a cricket analytics expert. I have uploaded a CSV file containing IPL 2026 player data with batting and bowling statistics.
+
+Your task is to add a new column called `player_category` to this CSV and assign each player to one of three categories: **A**, **B**, or **C**.
+
+## Classification Rules
+
+Use the following performance-based criteria to categorize players. The goal is a **nearly equal distribution** across A, B, and C (aim for roughly 33% in each).
+
+### Category A — Elite Performers
+Players who are top contributors with strong match impact. Criteria (meet ANY of these):
+- Batting average (bat_average) ≥ 30 AND strike rate (bat_sr) ≥ 130
+- Bowling average (bowl_avg) ≤ 22 AND economy (bowl_eco) ≤ 8.0
+- 3+ centuries (bat_100s ≥ 3) OR 50+ wickets (bowl_wickets ≥ 50)
+- All-rounders: bat_runs ≥ 1000 AND bowl_wickets ≥ 30
+
+### Category B — Solid Contributors
+Players who are reliable and consistent but not elite. Criteria (meet ANY of these after excluding Category A):
+- bat_average between 20 and 30 OR bat_runs ≥ 500
+- bowl_wickets between 15 and 49 OR bowl_avg between 22 and 30
+- bat_matches ≥ 30 (experienced players with decent records)
+
+### Category C — Emerging / Limited Data
+Players who do not qualify for A or B. Includes:
+- Newcomers with few matches or limited stats
+- Players with below-average performance metrics
+- Players with mostly missing/blank statistics
+
+## Important Instructions
+
+1. **Handle missing values**: If a stat field is blank or missing, do NOT penalize the player — treat it as insufficient data and lean toward Category C unless other stats clearly indicate A or B.
+
+2. **Balance the distribution**: After initial classification, if the distribution is imbalanced (e.g., too many C players), adjust thresholds slightly to achieve approximately equal distribution across all three categories. The final output should have roughly 30-36% of players in each category.
+
+3. **Consider all-rounders fairly**: Players who contribute with both bat and ball should be evaluated on their combined contribution.
+
+4. **Output format**: Return the complete CSV with the original columns intact and the new `player_category` column appended as the last column. Provide the CSV as a downloadable file.
+
+5. **Summary table**: After providing the CSV, also give me a summary showing:
+   - Count and percentage of players in each category
+   - Top 3 players in each category with their key stats
+   - A brief justification for borderline cases

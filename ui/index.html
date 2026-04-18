@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IPL 2026 Player Profile Card">
+    <title>IPL 2026 — Player Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="topbar">
+        <div class="topbar-inner">
+            <span class="brand">IPL <em>2026</em></span>
+            <span class="nav-label">Player Card</span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="card" id="playerCard">
+            <div class="card-hero">
+                <div class="hero-img-wrap">
+                    <img id="playerImage" class="hero-img" src="" alt="">
+                </div>
+                <div class="hero-overlay">
+                    <span class="team-pill" id="teamBadge"></span>
+                    <h1 class="hero-name" id="playerName"></h1>
+                    <p class="hero-role" id="playerRole"></p>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="meta-row">
+                    <div class="meta-chip" id="battingStyleTag">
+                        <span class="chip-label">BAT</span>
+                        <span class="chip-value" id="battingStyle"></span>
+                    </div>
+                    <div class="meta-chip" id="bowlingStyleTag">
+                        <span class="chip-label">BOWL</span>
+                        <span class="chip-value" id="bowlingStyle"></span>
+                    </div>
+                </div>
+
+                <div class="stats-sections">
+                    <div class="stats-panel" id="battingStatsSection">
+                        <h2 class="panel-title">Batting <span>IPL</span></h2>
+                        <div class="stat-grid" id="battingStatsGrid"></div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stats-panel" id="bowlingStatsSection">
+                        <h2 class="panel-title">Bowling <span>IPL</span></h2>
+                        <div class="stat-grid" id="bowlingStatsGrid"></div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="card-foot">
+                Data from <a href="https://www.cricbuzz.com" target="_blank" rel="noopener">Cricbuzz.com</a>
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
