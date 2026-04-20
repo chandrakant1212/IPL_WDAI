@@ -43,8 +43,9 @@ A complete solution for scraping IPL 2026 player data from [Cricbuzz](https://ww
 ### 1. Setup Environment
 
 ```bash
-# Clone / navigate to project folder
-cd scraper
+# Clone the repository
+git clone https://github.com/chandrakant1212/IPL_WDAI.git
+cd IPL_WDAI/scraper
 
 # Create virtual environment
 python -m venv venv
@@ -152,3 +153,31 @@ Example: `chennai-super-kings__ms-dhoni.jpg`
 - **BeautifulSoup4** — HTML parsing
 - **httpx** — Async HTTP client for image downloads
 - **HTML/CSS/JS** — Lightweight frontend UI
+
+---
+
+## 🤝 Contributing & Usage
+
+This project is **open for everyone**! Feel free to:
+
+- ⭐ **Star** this repo if you find it useful
+- 🍴 **Fork** it and build your own cricket data projects
+- 🐛 **Open issues** if you find bugs or have suggestions
+- 📬 **Submit pull requests** with improvements
+
+**You are free to use this code for learning, personal projects, or as a starting point for your own scrapers.** Just give a shoutout if you use it! 🙌
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+## 👤 Author
+
+**Chandrakant** — [GitHub](https://github.com/chandrakant1212)
+
+If you have any questions or need help running the project, feel free to open an issue!
+
