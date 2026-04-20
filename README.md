@@ -44,8 +44,8 @@ A complete solution for scraping IPL 2026 player data from [Cricbuzz](https://ww
 
 ```bash
 # Clone the repository
-git clone https://github.com/chandrakant1212/IPL_WDAI.git
-cd IPL_WDAI/scraper
+git clone https://github.com/chandrakant1212/Chandrakant_WDAI.git
+cd Chandrakant_WDAI/scraper
 
 # Create virtual environment
 python -m venv venv
@@ -177,7 +177,7 @@ This project is open source and available under the [MIT License](https://openso
 
 ## 👤 Author
 
-**Chandrakant** — [GitHub](https://github.com/chandrakant1212)
+**Chandrakant** — [GitHub](https://github.com/chandrakant1212/Chandrakant_WDAI)
 
 If you have any questions or need help running the project, feel free to open an issue!
 
