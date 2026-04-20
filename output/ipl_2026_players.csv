@@ -1,249 +1,249 @@
 name,role,Batting Style,Bowling Style,team,bat_matches,bat_innings,bat_runs,bat_balls,bat_highest,bat_average,bat_sr,bat_not_out,bat_fours,bat_sixes,bat_ducks,bat_50s,bat_100s,bat_200s,bat_300s,bat_400s,bowl_matches,bowl_innings,bowl_balls,bowl_runs,bowl_maidens,bowl_wickets,bowl_avg,bowl_eco,bowl_sr,bowl_bbi,bowl_bbm,bowl_4w,bowl_5w,bowl_10w,player_image_filename
-Ruturaj Gaikwad,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__ruturaj-gaikwad.jpg
-Dewald Brevis,Batsman,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__dewald-brevis.jpg
-Ayush Mhatre,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__ayush-mhatre.jpg
-Matthew Short,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__matthew-short.jpg
-Sarfaraz Khan,Batsman,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__sarfaraz-khan.jpg
-Shivam Dube,Batting Allrounder,Left Handed Bat,Right-arm medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__shivam-dube.jpg
+Ruturaj Gaikwad,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,77,76,2584,1893,108,38,136.51,8,239,96,7,20,2,0,0,0,77,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__ruturaj-gaikwad.jpg
+Dewald Brevis,Batsman,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,19,18,496,330,57,27.56,150.31,0,34,35,3,2,0,0,0,0,19,1,3,8,0,1,8.0,,3.0,1/8,1/8,0,0,0,chennai-super-kings__dewald-brevis.jpg
+Ayush Mhatre,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,13,13,441,240,94,33.92,183.75,0,51,23,2,3,0,0,0,0,13,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__ayush-mhatre.jpg
+Matthew Short,Batsman,Right Handed Bat,Right-arm offbreak,Chennai Super Kings,8,8,153,129,36,19.13,118.61,0,18,4,0,0,0,0,0,0,8,5,43,64,0,0,0.0,,0.0,0/1,0/1,0,0,0,chennai-super-kings__matthew-short.jpg
+Sarfaraz Khan,Batsman,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,56,42,732,534,67,23.61,137.08,11,83,20,3,2,0,0,0,0,56,1,2,6,0,0,0.0,,0.0,0/6,0/6,0,0,0,chennai-super-kings__sarfaraz-khan.jpg
+Shivam Dube,Batting Allrounder,Left Handed Bat,Right-arm medium,Chennai Super Kings,85,81,1982,1376,95,30.97,144.05,17,119,127,3,10,0,0,0,0,85,16,136,243,0,6,40.5,,22.67,2/15,2/15,0,0,0,chennai-super-kings__shivam-dube.jpg
 Ramakrishna Ghosh,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__ramakrishna-ghosh.jpg
-Jamie Overton,Bowling Allrounder,Right Handed Bat,Right-arm fast,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__jamie-overton.jpg
-Anshul Kamboj,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__anshul-kamboj.jpg
-Prashant Veer,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__prashant-veer.jpg
-Zakary Foulkes,Bowling Allrounder,Right Handed Bat,Right-arm medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__zakary-foulkes.jpg
-Aman Khan,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__aman-khan.jpg
-MS Dhoni,WK-Batsman,Right Handed Bat,Right-arm medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__ms-dhoni.jpg
-Urvil Patel,WK-Batsman,Right Handed Bat,,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__urvil-patel.jpg
-Sanju Samson,WK-Batsman,Right Handed Bat,,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__sanju-samson.jpg
-Kartik Sharma,WK-Batsman,Right Handed Bat,,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__kartik-sharma.jpg
-Shreyas Gopal,Bowler,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__shreyas-gopal.jpg
-Gurjapneet Singh,Bowler,Right Handed Bat,Left-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__gurjapneet-singh.jpg
-Mukesh Choudhary,Bowler,Left Handed Bat,Left-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__mukesh-choudhary.jpg
-Noor Ahmad,Bowler,Right Handed Bat,Left-arm wrist-spin,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__noor-ahmad.jpg
-Akeal Hosein,Bowler,Left Handed Bat,Left-arm orthodox,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__akeal-hosein.jpg
-Matt Henry,Bowler,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__matt-henry.jpg
-Rahul Chahar,Bowler,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__rahul-chahar.jpg
-Spencer Johnson,Bowler,Left Handed Bat,Left-arm fast,Chennai Super Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chennai-super-kings__spencer-johnson.jpg
-Karun Nair,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__karun-nair.jpg
-Nitish Rana,Batsman,Left Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__nitish-rana.jpg
-Sameer Rizvi,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__sameer-rizvi.jpg
-David Miller,Batsman,Left Handed Bat,,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__david-miller.jpg
-Pathum Nissanka,Batsman,Right Handed Bat,,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__pathum-nissanka.jpg
+Jamie Overton,Bowling Allrounder,Right Handed Bat,Right-arm fast,Chennai Super Kings,8,6,118,80,43,39.33,147.50,3,9,5,0,0,0,0,0,0,8,8,126,226,0,8,28.25,,15.75,4/18,4/18,1,0,0,chennai-super-kings__jamie-overton.jpg
+Anshul Kamboj,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,17,9,55,44,19,27.5,125.00,7,4,2,1,0,0,0,0,0,17,17,319,497,0,23,21.61,,13.87,3/13,3/13,0,0,0,chennai-super-kings__anshul-kamboj.jpg
+Prashant Veer,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Chennai Super Kings,2,2,49,36,43,49,136.12,1,7,1,0,0,0,0,0,0,2,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__prashant-veer.jpg
+Zakary Foulkes,Bowling Allrounder,Right Handed Bat,Right-arm medium,Chennai Super Kings,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__zakary-foulkes.jpg
+Aman Khan,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,12,10,115,104,51,12.78,110.58,1,8,6,1,1,0,0,0,0,12,1,6,13,0,0,0.0,,0.0,0/13,0/13,0,0,0,chennai-super-kings__aman-khan.jpg
+MS Dhoni,WK-Batsman,Right Handed Bat,Right-arm medium,Chennai Super Kings,278,242,5439,3957,84,38.3,137.46,100,375,264,6,24,0,0,0,0,278,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__ms-dhoni.jpg
+Urvil Patel,WK-Batsman,Right Handed Bat,,Chennai Super Kings,3,3,68,32,37,22.67,212.50,0,5,6,1,0,0,0,0,0,3,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__urvil-patel.jpg
+Sanju Samson,WK-Batsman,Right Handed Bat,,Chennai Super Kings,182,178,4896,3493,119,30.99,140.17,20,400,228,11,26,4,0,0,0,182,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__sanju-samson.jpg
+Kartik Sharma,WK-Batsman,Right Handed Bat,,Chennai Super Kings,3,3,25,21,18,8.33,119.05,0,0,2,0,0,0,0,0,0,3,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,chennai-super-kings__kartik-sharma.jpg
+Shreyas Gopal,Bowler,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,52,22,180,169,24,12.86,106.51,8,19,2,4,0,0,0,0,0,52,51,991,1348,1,52,25.92,,19.06,4/16,4/16,1,0,0,chennai-super-kings__shreyas-gopal.jpg
+Gurjapneet Singh,Bowler,Right Handed Bat,Left-arm fast-medium,Chennai Super Kings,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,55,96,0,2,48.0,,27.5,1/34,1/34,0,0,0,chennai-super-kings__gurjapneet-singh.jpg
+Mukesh Choudhary,Bowler,Left Handed Bat,Left-arm fast-medium,Chennai Super Kings,17,2,6,6,4,6,100.00,1,1,0,0,0,0,0,0,0,17,17,327,543,0,19,28.58,,17.21,4/46,4/46,1,0,0,chennai-super-kings__mukesh-choudhary.jpg
+Noor Ahmad,Bowler,Right Handed Bat,Left-arm wrist-spin,Chennai Super Kings,43,16,30,53,8,3,56.61,6,2,1,2,0,0,0,0,0,43,43,918,1268,0,52,24.38,,17.65,4/18,4/18,2,0,0,chennai-super-kings__noor-ahmad.jpg
+Akeal Hosein,Bowler,Left Handed Bat,Left-arm orthodox,Chennai Super Kings,3,1,16,10,16,0,160.00,1,1,1,0,0,0,0,0,0,3,3,60,86,0,2,43.0,,30.0,1/26,1/26,0,0,0,chennai-super-kings__akeal-hosein.jpg
+Matt Henry,Bowler,Right Handed Bat,Right-arm fast-medium,Chennai Super Kings,9,2,7,10,5,3.5,70.00,0,1,0,0,0,0,0,0,0,9,9,162,311,0,4,77.75,,40.5,2/54,2/54,0,0,0,chennai-super-kings__matt-henry.jpg
+Rahul Chahar,Bowler,Right Handed Bat,Right-arm legbreak,Chennai Super Kings,80,24,129,124,25,8.06,104.04,8,13,5,8,0,0,0,0,0,80,79,1694,2196,1,75,29.28,,22.59,4/27,4/27,1,0,0,chennai-super-kings__rahul-chahar.jpg
+Spencer Johnson,Bowler,Left Handed Bat,Left-arm fast,Chennai Super Kings,9,5,8,11,5,0,72.73,5,1,0,0,0,0,0,0,0,9,9,164,284,0,5,56.8,,32.8,2/25,2/25,0,0,0,chennai-super-kings__spencer-johnson.jpg
+Karun Nair,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,85,77,1699,1291,89,23.6,131.61,5,186,49,5,11,0,0,0,0,85,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__karun-nair.jpg
+Nitish Rana,Batsman,Left Handed Bat,Right-arm offbreak,Delhi Capitals,121,115,2873,2112,87,27.1,136.04,9,264,142,8,20,0,0,0,0,121,26,192,270,0,10,27.0,,19.2,2/11,2/11,0,0,0,delhi-capitals__nitish-rana.jpg
+Sameer Rizvi,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,18,14,340,233,90,30.91,145.93,3,28,20,2,3,0,0,0,0,18,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__sameer-rizvi.jpg
+David Miller,Batsman,Left Handed Bat,,Delhi Capitals,146,139,3178,2282,101,36.53,139.27,52,229,144,4,13,1,0,0,0,146,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__david-miller.jpg
+Pathum Nissanka,Batsman,Right Handed Bat,,Delhi Capitals,5,5,128,85,44,25.6,150.59,0,17,4,0,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__pathum-nissanka.jpg
 Sahil Parakh,Batsman,Left Handed Bat,Right-arm legbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__sahil-parakh.jpg
-Prithvi Shaw,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__prithvi-shaw.jpg
-Ashutosh Sharma,Batting Allrounder,Right Handed Bat,Right-arm medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__ashutosh-sharma.jpg
-Axar Patel,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__axar-patel.jpg
+Prithvi Shaw,Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,79,79,1892,1283,99,23.95,147.47,0,238,61,7,14,0,0,0,0,79,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__prithvi-shaw.jpg
+Ashutosh Sharma,Batting Allrounder,Right Handed Bat,Right-arm medium,Delhi Capitals,25,19,412,250,66,27.47,164.80,4,25,30,0,2,0,0,0,0,25,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__ashutosh-sharma.jpg
+Axar Patel,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Delhi Capitals,167,128,1945,1455,66,21.37,133.68,37,133,94,8,3,0,0,0,0,167,164,3405,4174,2,133,31.38,,25.6,4/21,4/21,1,0,0,delhi-capitals__axar-patel.jpg
 Ajay Jadav Mandal,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__ajay-jadav-mandal.jpg
-Madhav Tiwari,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__madhav-tiwari.jpg
-Vipraj Nigam,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__vipraj-nigam.jpg
+Madhav Tiwari,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,1,1,3,4,3,3,75.00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__madhav-tiwari.jpg
+Vipraj Nigam,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Delhi Capitals,17,9,154,86,39,19.25,179.07,1,17,8,1,0,0,0,0,0,17,16,264,411,0,12,34.25,,22.0,2/18,2/18,0,0,0,delhi-capitals__vipraj-nigam.jpg
 Tripurana Vijay,Bowling Allrounder,Right Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__tripurana-vijay.jpg
-Auqib Nabi Dar,Bowling Allrounder,Right Handed Bat,Right-arm medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__auqib-nabi-dar.jpg
-Abishek Porel,WK-Batsman,Left Handed Bat,,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__abishek-porel.jpg
-KL Rahul,WK-Batsman,Right Handed Bat,,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__kl-rahul.jpg
-Tristan Stubbs,WK-Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__tristan-stubbs.jpg
-Dushmantha Chameera,Bowler,Right Handed Bat,Right-arm fast,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__dushmantha-chameera.jpg
-Kuldeep Yadav,Bowler,Left Handed Bat,Left-arm wrist-spin,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__kuldeep-yadav.jpg
-Mukesh Kumar,Bowler,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__mukesh-kumar.jpg
-T Natarajan,Bowler,Left Handed Bat,Left-arm fast-medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__t-natarajan.jpg
-Mitchell Starc,Bowler,Left Handed Bat,Left-arm fast,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__mitchell-starc.jpg
-Lungi Ngidi,Bowler,Right Handed Bat,Right-arm fast,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__lungi-ngidi.jpg
-Kyle Jamieson,Bowler,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,delhi-capitals__kyle-jamieson.jpg
-Shubman Gill,Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__shubman-gill.jpg
-Shahrukh Khan,Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__shahrukh-khan.jpg
-Sai Sudharsan,Batsman,Left Handed Bat,Right-arm legbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__sai-sudharsan.jpg
+Auqib Nabi Dar,Bowling Allrounder,Right Handed Bat,Right-arm medium,Delhi Capitals,2,1,4,2,4,4,200.00,0,1,0,0,0,0,0,0,0,2,2,30,53,0,0,0.0,,0.0,0/17,0/17,0,0,0,delhi-capitals__auqib-nabi-dar.jpg
+Abishek Porel,WK-Batsman,Left Handed Bat,,Delhi Capitals,31,29,661,441,65,25.42,149.89,3,65,27,2,3,0,0,0,0,31,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__abishek-porel.jpg
+KL Rahul,WK-Batsman,Right Handed Bat,,Delhi Capitals,150,141,5390,3939,132,45.68,136.84,23,471,215,5,42,5,0,0,0,150,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,delhi-capitals__kl-rahul.jpg
+Tristan Stubbs,WK-Batsman,Right Handed Bat,Right-arm offbreak,Delhi Capitals,37,35,874,559,71,46,156.36,16,62,42,2,5,0,0,0,0,37,5,36,69,0,4,17.25,,9.0,2/11,2/11,0,0,0,delhi-capitals__tristan-stubbs.jpg
+Dushmantha Chameera,Bowler,Right Handed Bat,Right-arm fast,Delhi Capitals,19,11,53,42,17,13.25,126.20,7,3,3,2,0,0,0,0,0,19,18,372,603,0,13,46.38,,28.62,2/17,2/17,0,0,0,delhi-capitals__dushmantha-chameera.jpg
+Kuldeep Yadav,Bowler,Left Handed Bat,Left-arm wrist-spin,Delhi Capitals,103,40,206,240,35,12.12,85.84,23,18,3,5,0,0,0,0,0,103,100,2154,2909,1,107,27.19,,20.13,4/14,4/14,4,0,0,delhi-capitals__kuldeep-yadav.jpg
+Mukesh Kumar,Bowler,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,37,5,10,18,6,10,55.56,4,0,0,0,0,0,0,0,0,37,37,744,1269,1,41,30.95,,18.15,4/33,4/33,1,0,0,delhi-capitals__mukesh-kumar.jpg
+T Natarajan,Bowler,Left Handed Bat,Left-arm fast-medium,Delhi Capitals,68,5,4,7,3,0,57.15,5,0,0,0,0,0,0,0,0,68,67,1457,2175,2,71,30.63,,20.52,4/19,4/19,1,0,0,delhi-capitals__t-natarajan.jpg
+Mitchell Starc,Bowler,Left Handed Bat,Left-arm fast,Delhi Capitals,51,23,111,119,29,10.09,93.28,12,11,0,3,0,0,0,0,0,51,49,1047,1503,1,65,23.12,,16.11,5/35,5/35,2,1,0,delhi-capitals__mitchell-starc.jpg
+Lungi Ngidi,Bowler,Right Handed Bat,Right-arm fast,Delhi Capitals,21,2,3,7,3,3,42.86,1,0,0,0,0,0,0,0,0,21,21,490,694,2,36,19.28,,13.61,4/10,4/10,1,0,0,delhi-capitals__lungi-ngidi.jpg
+Kyle Jamieson,Bowler,Right Handed Bat,Right-arm fast-medium,Delhi Capitals,13,9,65,60,16,16.25,108.34,5,5,3,0,0,0,0,0,0,13,13,258,416,1,14,29.71,,18.43,3/41,3/41,0,0,0,delhi-capitals__kyle-jamieson.jpg
+Shubman Gill,Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,123,120,4131,2962,129,40.11,139.47,17,399,129,4,29,4,0,0,0,123,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__shubman-gill.jpg
+Shahrukh Khan,Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,61,53,767,516,58,20.73,148.65,16,48,52,3,2,0,0,0,0,61,3,18,28,0,1,28.0,,18.0,1/13,1/13,0,0,0,gujarat-titans__shahrukh-khan.jpg
+Sai Sudharsan,Batsman,Left Handed Bat,Right-arm legbreak,Gujarat Titans,46,46,1928,1322,108,45.9,145.84,4,200,57,1,13,2,0,0,0,46,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__sai-sudharsan.jpg
 Nishant Sindhu,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__nishant-sindhu.jpg
-Rashid Khan,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__rashid-khan.jpg
-Manav Suthar,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__manav-suthar.jpg
-Rahul Tewatia,Bowling Allrounder,Left Handed Bat,Right-arm legbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__rahul-tewatia.jpg
-Washington Sundar,Bowling Allrounder,Left Handed Bat,Right-arm offbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__washington-sundar.jpg
-Arshad Khan,Bowling Allrounder,Left Handed Bat,Left-arm medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__arshad-khan.jpg
-Ravisrinivasan Sai Kishore,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__ravisrinivasan-sai-kishore.jpg
-Jason Holder,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__jason-holder.jpg
-Anuj Rawat,WK-Batsman,Left Handed Bat,,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__anuj-rawat.jpg
-Jos Buttler,WK-Batsman,Right Handed Bat,,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__jos-buttler.jpg
-Kumar Kushagra,WK-Batsman,Right Handed Bat,,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__kumar-kushagra.jpg
-Glenn Phillips,WK-Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__glenn-phillips.jpg
-Connor Esterhuizen,WK-Batsman,Right Handed Bat,,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__connor-esterhuizen.jpg
-Gurnoor Brar,Bowler,Left Handed Bat,Right-arm fast,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__gurnoor-brar.jpg
-Mohammed Siraj,Bowler,Right Handed Bat,Right-arm fast,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__mohammed-siraj.jpg
-Prasidh Krishna,Bowler,Right Handed Bat,Right-arm fast,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__prasidh-krishna.jpg
-Kagiso Rabada,Bowler,Left Handed Bat,Right-arm fast,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__kagiso-rabada.jpg
-Jayant Yadav,Bowler,Right Handed Bat,Right-arm offbreak,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__jayant-yadav.jpg
-Ishant Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__ishant-sharma.jpg
-Ashok Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__ashok-sharma.jpg
-Luke Wood,Bowler,Left Handed Bat,Left-arm fast-medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__luke-wood.jpg
-Kulwant Khejroliya,Bowler,Left Handed Bat,Left-arm fast-medium,Gujarat Titans,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,gujarat-titans__kulwant-khejroliya.jpg
-Rajat Patidar,Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__rajat-patidar.jpg
-Tim David,Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__tim-david.jpg
-Virat Kohli,Batsman,Right Handed Bat,Right-arm medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__virat-kohli.jpg
-Devdutt Padikkal,Batsman,Left Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__devdutt-padikkal.jpg
-Jacob Bethell,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__jacob-bethell.jpg
-Krunal Pandya,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__krunal-pandya.jpg
-Venkatesh Iyer,Batting Allrounder,Left Handed Bat,Right-arm medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__venkatesh-iyer.jpg
+Rashid Khan,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Gujarat Titans,142,71,613,388,79,13.93,157.99,27,44,41,16,1,0,0,0,0,142,142,3333,3951,4,164,24.09,,20.32,4/24,4/24,2,0,0,gujarat-titans__rashid-khan.jpg
+Manav Suthar,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Gujarat Titans,1,1,1,2,1,1,50.00,0,0,0,0,0,0,0,0,0,1,1,12,26,0,0,0.0,,0.0,0/26,0/26,0,0,0,gujarat-titans__manav-suthar.jpg
+Rahul Tewatia,Bowling Allrounder,Left Handed Bat,Right-arm legbreak,Gujarat Titans,114,83,1161,853,53,23.22,136.11,33,94,55,3,1,0,0,0,0,114,52,843,1111,0,32,34.72,,26.34,3/18,3/18,0,0,0,gujarat-titans__rahul-tewatia.jpg
+Washington Sundar,Bowling Allrounder,Left Handed Bat,Right-arm offbreak,Gujarat Titans,72,51,648,498,55,17.51,130.13,14,59,19,2,1,0,0,0,0,72,66,1150,1487,1,40,37.17,,28.75,3/16,3/16,0,0,0,gujarat-titans__washington-sundar.jpg
+Arshad Khan,Bowling Allrounder,Left Handed Bat,Left-arm medium,Gujarat Titans,19,12,124,88,58,20.67,140.91,6,6,9,1,1,0,0,0,0,19,19,272,521,0,12,43.42,,22.67,3/39,3/39,0,0,0,gujarat-titans__arshad-khan.jpg
+Ravisrinivasan Sai Kishore,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Gujarat Titans,25,5,18,16,13,4.5,112.50,1,0,2,0,0,0,0,0,0,25,25,441,651,0,32,20.34,,13.78,4/33,4/33,1,0,0,gujarat-titans__ravisrinivasan-sai-kishore.jpg
+Jason Holder,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,46,27,259,210,47,12.33,123.34,6,13,18,2,0,0,0,0,0,46,46,995,1461,0,53,27.57,,18.77,4/52,4/52,1,0,0,gujarat-titans__jason-holder.jpg
+Anuj Rawat,WK-Batsman,Left Handed Bat,,Gujarat Titans,24,21,318,267,66,19.88,119.11,5,26,14,4,1,0,0,0,0,24,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__anuj-rawat.jpg
+Jos Buttler,WK-Batsman,Right Handed Bat,,Gujarat Titans,127,125,4326,2890,124,39.69,149.69,16,432,194,8,26,7,0,0,0,127,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__jos-buttler.jpg
+Kumar Kushagra,WK-Batsman,Right Handed Bat,,Gujarat Titans,5,4,21,21,18,5.25,100.00,0,3,0,1,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__kumar-kushagra.jpg
+Glenn Phillips,WK-Batsman,Right Handed Bat,Right-arm offbreak,Gujarat Titans,14,13,132,109,25,12,121.11,2,7,8,1,0,0,0,0,0,14,4,30,40,0,2,20.0,,15.0,1/10,1/10,0,0,0,gujarat-titans__glenn-phillips.jpg
+Connor Esterhuizen,WK-Batsman,Right Handed Bat,,Gujarat Titans,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,gujarat-titans__connor-esterhuizen.jpg
+Gurnoor Brar,Bowler,Left Handed Bat,Right-arm fast,Gujarat Titans,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,18,42,0,0,0.0,,0.0,0/42,0/42,0,0,0,gujarat-titans__gurnoor-brar.jpg
+Mohammed Siraj,Bowler,Right Handed Bat,Right-arm fast,Gujarat Titans,114,27,112,126,14,10.18,88.89,16,10,4,3,0,0,0,0,0,114,114,2432,3531,4,115,30.7,,21.15,4/17,4/17,3,0,0,gujarat-titans__mohammed-siraj.jpg
+Prasidh Krishna,Bowler,Right Handed Bat,Right-arm fast,Gujarat Titans,72,10,9,24,4,3,37.50,7,0,0,2,0,0,0,0,0,72,72,1643,2429,3,86,28.24,,19.1,4/28,4/28,3,0,0,gujarat-titans__prasidh-krishna.jpg
+Kagiso Rabada,Bowler,Left Handed Bat,Right-arm fast,Gujarat Titans,90,35,250,231,44,13.16,108.23,16,19,11,4,0,0,0,0,0,90,90,2040,2956,2,129,22.91,,15.81,4/21,4/21,6,0,0,gujarat-titans__kagiso-rabada.jpg
+Jayant Yadav,Bowler,Right Handed Bat,Right-arm offbreak,Gujarat Titans,20,5,40,36,23,10,111.12,1,2,1,0,0,0,0,0,0,20,20,390,445,0,8,55.63,,48.75,1/8,1/8,0,0,0,gujarat-titans__jayant-yadav.jpg
+Ishant Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,117,28,57,69,10,9.5,82.61,22,4,2,1,0,0,0,0,0,117,117,2419,3377,6,96,35.18,,25.2,5/12,5/12,0,1,0,gujarat-titans__ishant-sharma.jpg
+Ashok Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Gujarat Titans,6,2,1,4,1,0,25.00,2,0,0,0,0,0,0,0,0,6,6,126,228,0,6,38.0,,21.0,2/32,2/32,0,0,0,gujarat-titans__ashok-sharma.jpg
+Luke Wood,Bowler,Left Handed Bat,Left-arm fast-medium,Gujarat Titans,2,1,9,3,9,0,300.00,1,0,1,0,0,0,0,0,0,2,2,36,93,0,1,93.0,,36.0,1/68,1/68,0,0,0,gujarat-titans__luke-wood.jpg
+Kulwant Khejroliya,Bowler,Left Handed Bat,Left-arm fast-medium,Gujarat Titans,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,139,246,0,6,41.0,,23.17,2/33,2/33,0,0,0,gujarat-titans__kulwant-khejroliya.jpg
+Rajat Patidar,Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,48,44,1341,828,112,32.71,161.96,3,88,90,1,11,1,0,0,0,48,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__rajat-patidar.jpg
+Tim David,Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,56,50,1019,573,70,36.39,177.84,22,66,74,3,2,0,0,0,0,56,1,6,18,0,0,0.0,,0.0,0/18,0/18,0,0,0,royal-challengers-bengaluru__tim-david.jpg
+Virat Kohli,Batsman,Right Handed Bat,Right-arm medium,Royal Challengers Bengaluru,273,265,8908,6676,113,39.77,133.44,41,799,299,10,65,8,0,0,0,273,26,251,368,0,4,92.0,,62.75,2/25,2/25,0,0,0,royal-challengers-bengaluru__virat-kohli.jpg
+Devdutt Padikkal,Batsman,Left Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,80,79,1959,1516,101,25.78,129.23,3,207,63,6,13,1,0,0,0,80,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__devdutt-padikkal.jpg
+Jacob Bethell,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,2,2,67,39,55,33.5,171.80,0,9,3,0,1,0,0,0,0,2,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__jacob-bethell.jpg
+Krunal Pandya,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,148,119,1761,1336,86,21.48,131.82,37,151,66,7,2,0,0,0,0,148,138,2524,3165,1,101,31.34,,24.99,4/45,4/45,1,0,0,royal-challengers-bengaluru__krunal-pandya.jpg
+Venkatesh Iyer,Batting Allrounder,Left Handed Bat,Right-arm medium,Royal Challengers Bengaluru,62,57,1497,1084,104,30.55,138.10,8,137,67,2,12,1,0,0,0,62,9,81,143,0,3,47.67,,27.0,2/29,2/29,0,0,0,royal-challengers-bengaluru__venkatesh-iyer.jpg
 Vihaan Malhotra,Batting Allrounder,Left Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__vihaan-malhotra.jpg
-Romario Shepherd,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__romario-shepherd.jpg
+Romario Shepherd,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,24,16,224,112,53,24.89,200.00,7,15,19,2,1,0,0,0,0,24,20,264,544,0,13,41.85,,20.31,3/54,3/54,0,0,0,royal-challengers-bengaluru__romario-shepherd.jpg
 Mangesh Yadav,Bowling Allrounder,Left Handed Bat,Left-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__mangesh-yadav.jpg
 Kanishk Chouhan,Bowling Allrounder,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__kanishk-chouhan.jpg
 Satvik Deswal,Bowling Allrounder,Left Handed Bat,Left-arm wrist-spin,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__satvik-deswal.jpg
-Philip Salt,WK-Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__philip-salt.jpg
-Jitesh Sharma,WK-Batsman,Right Handed Bat,,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__jitesh-sharma.jpg
-Jordan Cox,WK-Batsman,Right Handed Bat,,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__jordan-cox.jpg
-Abhinandan Singh,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__abhinandan-singh.jpg
-Josh Hazlewood,Bowler,Left Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__josh-hazlewood.jpg
-Rasikh Salam Dar,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__rasikh-salam-dar.jpg
-Bhuvneshwar Kumar,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__bhuvneshwar-kumar.jpg
-Suyash Sharma,Bowler,Right Handed Bat,Right-arm legbreak,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__suyash-sharma.jpg
-Swapnil Singh,Bowler,Right Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__swapnil-singh.jpg
-Nuwan Thushara,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__nuwan-thushara.jpg
-Jacob Duffy,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__jacob-duffy.jpg
+Philip Salt,WK-Batsman,Right Handed Bat,Right-arm offbreak,Royal Challengers Bengaluru,40,40,1258,721,89,34,174.48,3,138,67,4,12,0,0,0,0,40,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__philip-salt.jpg
+Jitesh Sharma,WK-Batsman,Right Handed Bat,,Royal Challengers Bengaluru,61,52,1043,678,85,23.7,153.84,8,81,64,3,1,0,0,0,0,61,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__jitesh-sharma.jpg
+Jordan Cox,WK-Batsman,Right Handed Bat,,Royal Challengers Bengaluru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,royal-challengers-bengaluru__jordan-cox.jpg
+Abhinandan Singh,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,58,122,0,3,40.67,,19.33,2/30,2/30,0,0,0,royal-challengers-bengaluru__abhinandan-singh.jpg
+Josh Hazlewood,Bowler,Left Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,42,7,19,29,7,0,65.52,7,1,0,0,0,0,0,0,0,42,42,939,1298,1,60,21.63,,15.65,4/25,4/25,2,0,0,royal-challengers-bengaluru__josh-hazlewood.jpg
+Rasikh Salam Dar,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,16,7,40,40,10,8,100.00,2,5,0,0,0,0,0,0,0,16,16,296,496,0,15,33.07,,19.73,4/24,4/24,1,0,0,royal-challengers-bengaluru__rasikh-salam-dar.jpg
+Bhuvneshwar Kumar,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,196,76,332,360,27,8.74,92.23,38,32,3,6,0,0,0,0,0,196,196,4366,5612,14,208,26.98,,20.99,5/19,5/19,2,2,0,royal-challengers-bengaluru__bhuvneshwar-kumar.jpg
+Suyash Sharma,Bowler,Right Handed Bat,Right-arm legbreak,Royal Challengers Bengaluru,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,32,666,975,0,22,44.32,,30.27,3/17,3/17,0,0,0,royal-challengers-bengaluru__suyash-sharma.jpg
+Swapnil Singh,Bowler,Right Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,14,9,51,45,15,10.2,113.34,4,3,3,2,0,0,0,0,0,14,14,162,241,0,7,34.43,,23.14,2/28,2/28,0,0,0,royal-challengers-bengaluru__swapnil-singh.jpg
+Nuwan Thushara,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,180,283,0,9,31.44,,20.0,3/28,3/28,0,0,0,royal-challengers-bengaluru__nuwan-thushara.jpg
+Jacob Duffy,Bowler,Right Handed Bat,Right-arm fast-medium,Royal Challengers Bengaluru,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,72,138,0,6,23.0,,12.0,3/22,3/22,0,0,0,royal-challengers-bengaluru__jacob-duffy.jpg
 Vicky Ostwal,Bowler,Right Handed Bat,Left-arm orthodox,Royal Challengers Bengaluru,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,royal-challengers-bengaluru__vicky-ostwal.jpg
-Shreyas Iyer,Batsman,Right Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__shreyas-iyer.jpg
-Priyansh Arya,Batsman,Left Handed Bat,Right-arm offbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__priyansh-arya.jpg
+Shreyas Iyer,Batsman,Right Handed Bat,Right-arm legbreak,Punjab Kings,138,137,3939,2912,97,34.86,135.27,24,328,166,7,30,0,0,0,0,138,1,6,7,0,0,0.0,,0.0,0/7,0/7,0,0,0,punjab-kings__shreyas-iyer.jpg
+Priyansh Arya,Batsman,Left Handed Bat,Right-arm offbreak,Punjab Kings,22,22,686,350,103,31.18,196.00,0,69,45,1,4,1,0,0,0,22,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__priyansh-arya.jpg
 Pyla Avinash,Batsman,Right Handed Bat,Right-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__pyla-avinash.jpg
 Harnoor Singh,Batsman,Left Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__harnoor-singh.jpg
-Nehal Wadhera,Batsman,Left Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__nehal-wadhera.jpg
-Mitchell Owen,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__mitchell-owen.jpg
-Musheer Khan,Batting Allrounder,Right Handed Bat,Left-arm orthodox,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__musheer-khan.jpg
-Shashank Singh,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__shashank-singh.jpg
-Marcus Stoinis,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__marcus-stoinis.jpg
-Suryansh Shedge,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__suryansh-shedge.jpg
-Cooper Connolly,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__cooper-connolly.jpg
-Azmatullah Omarzai,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__azmatullah-omarzai.jpg
-Marco Jansen,Bowling Allrounder,Right Handed Bat,Left-arm fast,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__marco-jansen.jpg
-Praveen Dubey,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__praveen-dubey.jpg
-Prabhsimran Singh,WK-Batsman,Right Handed Bat,,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__prabhsimran-singh.jpg
-Vishnu Vinod,WK-Batsman,Right Handed Bat,,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__vishnu-vinod.jpg
-Arshdeep Singh,Bowler,Left Handed Bat,Left-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__arshdeep-singh.jpg
-Xavier Bartlett,Bowler,Right Handed Bat,Right-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__xavier-bartlett.jpg
-Yuzvendra Chahal,Bowler,Right Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__yuzvendra-chahal.jpg
-Lockie Ferguson,Bowler,Right Handed Bat,Right-arm fast,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__lockie-ferguson.jpg
-Harpreet Brar,Bowler,Left Handed Bat,Left-arm orthodox,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__harpreet-brar.jpg
-Vijaykumar Vyshak,Bowler,Right Handed Bat,Right-arm medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__vijaykumar-vyshak.jpg
-Yash Thakur,Bowler,Right Handed Bat,Right-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__yash-thakur.jpg
-Ben Dwarshuis,Bowler,Left Handed Bat,Left-arm fast-medium,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__ben-dwarshuis.jpg
+Nehal Wadhera,Batsman,Left Handed Bat,Right-arm legbreak,Punjab Kings,41,35,759,539,70,24.48,140.82,4,61,42,1,4,0,0,0,0,41,2,17,22,0,0,0.0,,0.0,0/9,0/9,0,0,0,punjab-kings__nehal-wadhera.jpg
+Mitchell Owen,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,1,1,0,2,0,0,0.00,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__mitchell-owen.jpg
+Musheer Khan,Batting Allrounder,Right Handed Bat,Left-arm orthodox,Punjab Kings,1,1,0,3,0,0,0.00,0,0,0,1,0,0,0,0,0,1,1,12,27,0,1,27.0,,12.0,1/27,1/27,0,0,0,punjab-kings__musheer-khan.jpg
+Shashank Singh,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,47,37,824,516,68,39.24,159.69,16,60,46,2,5,0,0,0,0,47,6,60,91,0,4,22.75,,15.0,2/20,2/20,0,0,0,punjab-kings__shashank-singh.jpg
+Marcus Stoinis,Batting Allrounder,Right Handed Bat,Right-arm medium,Punjab Kings,115,103,2074,1426,124,28.03,145.45,29,164,108,10,9,1,0,0,0,115,72,894,1466,0,44,33.32,,20.32,4/15,4/15,1,0,0,punjab-kings__marcus-stoinis.jpg
+Suryansh Shedge,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Punjab Kings,5,3,7,11,4,2.33,63.64,0,0,0,0,0,0,0,0,0,5,1,18,40,0,0,0.0,,0.0,0/40,0/40,0,0,0,punjab-kings__suryansh-shedge.jpg
+Cooper Connolly,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Punjab Kings,6,5,223,136,87,55.75,163.98,1,21,14,0,2,0,0,0,0,6,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__cooper-connolly.jpg
+Azmatullah Omarzai,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Punjab Kings,16,9,99,74,21,12.38,133.79,1,8,5,0,0,0,0,0,0,16,15,288,465,0,12,38.75,,24.0,2/27,2/27,0,0,0,punjab-kings__azmatullah-omarzai.jpg
+Marco Jansen,Bowling Allrounder,Right Handed Bat,Left-arm fast,Punjab Kings,41,23,151,140,34,12.58,107.86,11,8,7,3,0,0,0,0,0,41,40,853,1319,1,41,32.17,,20.8,3/17,3/17,0,0,0,punjab-kings__marco-jansen.jpg
+Praveen Dubey,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Punjab Kings,5,2,23,33,16,23,69.70,1,2,0,0,0,0,0,0,0,5,5,78,111,0,2,55.5,,39.0,1/19,1/19,0,0,0,punjab-kings__praveen-dubey.jpg
+Prabhsimran Singh,WK-Batsman,Right Handed Bat,,Punjab Kings,57,56,1516,982,103,27.56,154.38,1,156,82,5,9,1,0,0,0,57,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__prabhsimran-singh.jpg
+Vishnu Vinod,WK-Batsman,Right Handed Bat,,Punjab Kings,6,6,56,57,30,9.33,98.25,0,3,3,0,0,0,0,0,0,6,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__vishnu-vinod.jpg
+Arshdeep Singh,Bowler,Left Handed Bat,Left-arm fast-medium,Punjab Kings,88,14,31,46,10,5.17,67.40,8,4,0,3,0,0,0,0,0,88,88,1846,2782,2,103,27.01,,17.92,5/32,5/32,2,1,0,punjab-kings__arshdeep-singh.jpg
+Xavier Bartlett,Bowler,Right Handed Bat,Right-arm fast-medium,Punjab Kings,10,2,22,20,11,22,110.00,1,1,1,0,0,0,0,0,0,10,10,190,324,0,6,54.0,,31.67,2/9,2/9,0,0,0,punjab-kings__xavier-bartlett.jpg
+Yuzvendra Chahal,Bowler,Right Handed Bat,Right-arm legbreak,Punjab Kings,180,20,37,86,8,5.29,43.03,13,0,0,1,0,0,0,0,0,180,177,3893,5195,4,225,23.09,,17.3,5/40,5/40,8,1,0,punjab-kings__yuzvendra-chahal.jpg
+Lockie Ferguson,Bowler,Right Handed Bat,Right-arm fast,Punjab Kings,49,11,72,47,24,24,153.20,8,7,2,1,0,0,0,0,0,49,49,1023,1530,1,51,30.0,,20.06,4/28,4/28,1,0,0,punjab-kings__lockie-ferguson.jpg
+Harpreet Brar,Bowler,Left Handed Bat,Left-arm orthodox,Punjab Kings,49,26,244,203,29,20.33,120.20,14,19,10,1,0,0,0,0,0,49,46,811,1085,1,35,31.0,,23.17,4/30,4/30,1,0,0,punjab-kings__harpreet-brar.jpg
+Vijaykumar Vyshak,Bowler,Right Handed Bat,Right-arm medium,Punjab Kings,22,4,14,12,13,7,116.67,2,0,1,2,0,0,0,0,0,22,21,435,747,0,23,32.48,,18.91,3/20,3/20,0,0,0,punjab-kings__vijaykumar-vyshak.jpg
+Yash Thakur,Bowler,Right Handed Bat,Right-arm fast-medium,Punjab Kings,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,21,443,770,1,25,30.8,,17.72,5/30,5/30,1,1,0,punjab-kings__yash-thakur.jpg
+Ben Dwarshuis,Bowler,Left Handed Bat,Left-arm fast-medium,Punjab Kings,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,punjab-kings__ben-dwarshuis.jpg
 Vishal Nishad,Bowler,Right Handed Bat,Right-arm legbreak,Punjab Kings,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punjab-kings__vishal-nishad.jpg
-Ajinkya Rahane,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__ajinkya-rahane.jpg
-Manish Pandey,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__manish-pandey.jpg
-Rovman Powell,Batsman,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__rovman-powell.jpg
-Angkrish Raghuvanshi,Batsman,Right Handed Bat,Right-arm offbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__angkrish-raghuvanshi.jpg
-Rinku Singh,Batsman,Left Handed Bat,Right-arm offbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__rinku-singh.jpg
-Finn Allen,Batsman,Right Handed Bat,,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__finn-allen.jpg
-Rahul Tripathi,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__rahul-tripathi.jpg
+Ajinkya Rahane,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,205,190,5184,4130,105,30.32,125.53,19,522,132,15,34,2,0,0,0,205,1,6,5,0,1,5.0,,6.0,1/5,1/5,0,0,0,kolkata-knight-riders__ajinkya-rahane.jpg
+Manish Pandey,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,174,162,3942,3244,114,29.42,121.52,28,339,115,14,22,1,0,0,0,174,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,kolkata-knight-riders__manish-pandey.jpg
+Rovman Powell,Batsman,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,33,27,485,335,67,22.05,144.78,5,31,35,2,1,0,0,0,0,33,2,18,35,0,1,35.0,,18.0,1/18,1/18,0,0,0,kolkata-knight-riders__rovman-powell.jpg
+Angkrish Raghuvanshi,Batsman,Right Handed Bat,Right-arm offbreak,Kolkata Knight Riders,29,25,663,460,54,30.14,144.14,3,69,23,0,4,0,0,0,0,29,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,kolkata-knight-riders__angkrish-raghuvanshi.jpg
+Rinku Singh,Batsman,Left Handed Bat,Right-arm offbreak,Kolkata Knight Riders,65,57,1231,858,67,30.78,143.48,17,100,59,0,5,0,0,0,0,65,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,kolkata-knight-riders__rinku-singh.jpg
+Finn Allen,Batsman,Right Handed Bat,,Kolkata Knight Riders,5,5,81,42,37,16.2,192.86,0,13,4,0,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,kolkata-knight-riders__finn-allen.jpg
+Rahul Tripathi,Batsman,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,100,98,2291,1662,93,26.03,137.85,10,229,85,4,12,0,0,0,0,100,1,6,12,0,0,0.0,,0.0,0/12,0/12,0,0,0,kolkata-knight-riders__rahul-tripathi.jpg
 Sarthak Ranjan,Batsman,Right Handed Bat,Right-arm offbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__sarthak-ranjan.jpg
-Ramandeep Singh,Batting Allrounder,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__ramandeep-singh.jpg
-Anukul Roy,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__anukul-roy.jpg
-Cameron Green,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__cameron-green.jpg
-Rachin Ravindra,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__rachin-ravindra.jpg
-Sunil Narine,Bowling Allrounder,Left Handed Bat,Right-arm offbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__sunil-narine.jpg
+Ramandeep Singh,Batting Allrounder,Right Handed Bat,Right-arm medium,Kolkata Knight Riders,37,25,293,194,35,19.53,151.04,10,17,19,1,0,0,0,0,0,37,6,56,94,0,7,13.43,,8.0,3/20,3/20,0,0,0,kolkata-knight-riders__ramandeep-singh.jpg
+Anukul Roy,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Kolkata Knight Riders,18,11,65,51,29,10.83,127.46,5,5,2,4,0,0,0,0,0,18,15,239,339,0,10,33.9,,23.9,2/19,2/19,0,0,0,kolkata-knight-riders__anukul-roy.jpg
+Cameron Green,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,36,35,869,567,100,37.78,153.27,12,78,39,1,3,1,0,0,0,36,32,475,749,0,17,44.06,,27.94,2/12,2/12,0,0,0,kolkata-knight-riders__cameron-green.jpg
+Rachin Ravindra,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Kolkata Knight Riders,18,18,413,287,65,24.29,143.91,1,40,16,2,2,0,0,0,0,18,2,12,7,0,0,0.0,,0.0,0/3,0/3,0,0,0,kolkata-knight-riders__rachin-ravindra.jpg
+Sunil Narine,Bowling Allrounder,Left Handed Bat,Right-arm offbreak,Kolkata Knight Riders,194,125,1816,1095,109,17.46,165.85,21,191,120,18,7,1,0,0,0,194,193,4483,5079,4,198,25.65,,22.64,5/19,5/19,7,1,0,kolkata-knight-riders__sunil-narine.jpg
 Daksh Kamra,Bowling Allrounder,Right Handed Bat,Right-arm legbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__daksh-kamra.jpg
-Tim Seifert,WK-Batsman,Right Handed Bat,,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__tim-seifert.jpg
+Tim Seifert,WK-Batsman,Right Handed Bat,,Kolkata Knight Riders,5,5,45,38,21,9,118.43,0,6,1,1,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,kolkata-knight-riders__tim-seifert.jpg
 Tejasvi Dahiya,WK-Batsman,Right Handed Bat,Right-arm offbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__tejasvi-dahiya.jpg
-Vaibhav Arora,Bowler,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__vaibhav-arora.jpg
-Umran Malik,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__umran-malik.jpg
-Varun Chakaravarthy,Bowler,Right Handed Bat,Right-arm legbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__varun-chakaravarthy.jpg
-Prashant Solanki,Bowler,Right Handed Bat,Right-arm legbreak,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__prashant-solanki.jpg
-Kartik Tyagi,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__kartik-tyagi.jpg
-Matheesha Pathirana,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__matheesha-pathirana.jpg
-Blessing Muzarabani,Bowler,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__blessing-muzarabani.jpg
+Vaibhav Arora,Bowler,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,39,12,10,27,2,2.5,37.04,8,0,0,3,0,0,0,0,0,39,38,782,1280,1,43,29.77,,18.19,3/27,3/27,0,0,0,kolkata-knight-riders__vaibhav-arora.jpg
+Umran Malik,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,26,6,23,16,19,11.5,143.75,4,1,2,2,0,0,0,0,0,26,26,493,772,1,29,26.62,,17.0,5/25,5/25,1,1,0,kolkata-knight-riders__umran-malik.jpg
+Varun Chakaravarthy,Bowler,Right Handed Bat,Right-arm legbreak,Kolkata Knight Riders,88,14,26,48,10,5.2,54.17,9,2,0,2,0,0,0,0,0,88,88,1990,2538,1,105,24.17,,18.95,5/20,5/20,1,1,0,kolkata-knight-riders__varun-chakaravarthy.jpg
+Prashant Solanki,Bowler,Right Handed Bat,Right-arm legbreak,Kolkata Knight Riders,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,36,38,0,2,19.0,,18.0,2/20,2/20,0,0,0,kolkata-knight-riders__prashant-solanki.jpg
+Kartik Tyagi,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,27,9,24,25,7,4,96.00,3,2,1,1,0,0,0,0,0,27,26,560,932,0,23,40.52,,24.35,3/22,3/22,0,0,0,kolkata-knight-riders__kartik-tyagi.jpg
+Matheesha Pathirana,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,32,702,1016,0,47,21.62,,14.94,4/28,4/28,1,0,0,kolkata-knight-riders__matheesha-pathirana.jpg
+Blessing Muzarabani,Bowler,Right Handed Bat,Right-arm fast-medium,Kolkata Knight Riders,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,42,75,0,4,18.75,,10.5,4/41,4/41,1,0,0,kolkata-knight-riders__blessing-muzarabani.jpg
 Saurabh Dubey,Bowler,Right Handed Bat,Left-arm fast-medium,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__saurabh-dubey.jpg
-Navdeep Saini,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,kolkata-knight-riders__navdeep-saini.jpg
-Travis Head,Batsman,Left Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__travis-head.jpg
+Navdeep Saini,Bowler,Right Handed Bat,Right-arm fast,Kolkata Knight Riders,34,7,33,37,12,8.25,89.19,3,3,0,0,0,0,0,0,0,34,33,676,1011,1,23,43.96,,29.39,3/40,3/40,0,0,0,kolkata-knight-riders__navdeep-saini.jpg
+Travis Head,Batsman,Left Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,44,43,1289,773,102,33.05,166.76,4,146,60,5,8,1,0,0,0,44,6,58,113,0,2,56.5,,29.0,2/30,2/30,0,0,0,sunrisers-hyderabad__travis-head.jpg
 Smaran Ravichandran,Batsman,Left Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__smaran-ravichandran.jpg
-Aniket Verma,Batsman,Right Handed Bat,Right-arm medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__aniket-verma.jpg
-Abhishek Sharma,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__abhishek-sharma.jpg
-Kamindu Mendis,Batting Allrounder,Left Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__kamindu-mendis.jpg
-Nitish Kumar Reddy,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__nitish-kumar-reddy.jpg
-Liam Livingstone,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__liam-livingstone.jpg
-Harsh Dubey,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__harsh-dubey.jpg
-Shivang Kumar,Bowling Allrounder,Right Handed Bat,Left-arm wrist-spin,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__shivang-kumar.jpg
-Ishan Kishan,WK-Batsman,Left Handed Bat,,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__ishan-kishan.jpg
-Heinrich Klaasen,WK-Batsman,Right Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__heinrich-klaasen.jpg
-Salil Arora,WK-Batsman,Right Handed Bat,,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__salil-arora.jpg
-Pat Cummins,Bowler,Right Handed Bat,Right-arm fast,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__pat-cummins.jpg
-Eshan Malinga,Bowler,Left Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__eshan-malinga.jpg
-Jaydev Unadkat,Bowler,Right Handed Bat,Left-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__jaydev-unadkat.jpg
-Harshal Patel,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__harshal-patel.jpg
-Zeeshan Ansari,Bowler,Right Handed Bat,Right-arm legbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__zeeshan-ansari.jpg
-Sakib Hussain,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__sakib-hussain.jpg
+Aniket Verma,Batsman,Right Handed Bat,Right-arm medium,Sunrisers Hyderabad,20,18,308,187,74,22,164.71,4,17,25,0,1,0,0,0,0,20,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,sunrisers-hyderabad__aniket-verma.jpg
+Abhishek Sharma,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Sunrisers Hyderabad,83,80,2003,1196,141,27.44,167.48,7,189,118,5,11,1,0,0,0,83,35,353,536,0,11,48.73,,32.09,2/4,2/4,0,0,0,sunrisers-hyderabad__abhishek-sharma.jpg
+Kamindu Mendis,Batting Allrounder,Left Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,5,5,92,69,32,23,133.34,1,7,2,1,0,0,0,0,0,5,4,42,60,0,2,30.0,,21.0,1/4,1/4,0,0,0,sunrisers-hyderabad__kamindu-mendis.jpg
+Nitish Kumar Reddy,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,34,28,621,450,76,28.23,138.00,6,38,36,1,3,0,0,0,0,34,18,217,374,0,9,41.56,,24.11,2/17,2/17,0,0,0,sunrisers-hyderabad__nitish-kumar-reddy.jpg
+Liam Livingstone,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Sunrisers Hyderabad,51,49,1066,687,94,25.38,155.17,7,70,76,3,7,0,0,0,0,51,27,312,469,0,13,36.08,,24.0,3/27,3/27,0,0,0,sunrisers-hyderabad__liam-livingstone.jpg
+Harsh Dubey,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Sunrisers Hyderabad,8,5,13,9,9,6.5,144.45,3,2,0,1,0,0,0,0,0,8,8,150,228,0,10,22.8,,15.0,3/34,3/34,0,0,0,sunrisers-hyderabad__harsh-dubey.jpg
+Shivang Kumar,Bowling Allrounder,Right Handed Bat,Left-arm wrist-spin,Sunrisers Hyderabad,5,3,21,14,12,7,150.00,0,3,1,0,0,0,0,0,0,5,5,108,150,0,5,30.0,,21.6,3/33,3/33,0,0,0,sunrisers-hyderabad__shivang-kumar.jpg
+Ishan Kishan,WK-Batsman,Left Handed Bat,,Sunrisers Hyderabad,125,118,3211,2291,106,29.46,140.16,9,310,146,10,19,1,0,0,0,125,1,1,4,0,0,0.0,,0.0,0/4,0/4,0,0,0,sunrisers-hyderabad__ishan-kishan.jpg
+Heinrich Klaasen,WK-Batsman,Right Handed Bat,Right-arm offbreak,Sunrisers Hyderabad,55,51,1763,1068,105,41,165.08,8,117,99,1,10,2,0,0,0,55,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,sunrisers-hyderabad__heinrich-klaasen.jpg
+Salil Arora,WK-Batsman,Right Handed Bat,,Sunrisers Hyderabad,5,5,55,40,24,13.75,137.50,1,4,4,1,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,sunrisers-hyderabad__salil-arora.jpg
+Pat Cummins,Bowler,Right Handed Bat,Right-arm fast,Sunrisers Hyderabad,72,50,612,402,66,20.4,152.24,20,39,41,4,3,0,0,0,0,72,72,1617,2373,2,79,30.04,,20.47,4/34,4/34,1,0,0,sunrisers-hyderabad__pat-cummins.jpg
+Eshan Malinga,Bowler,Left Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,13,274,423,0,21,20.14,,13.05,3/29,3/29,0,0,0,sunrisers-hyderabad__eshan-malinga.jpg
+Jaydev Unadkat,Bowler,Right Handed Bat,Left-arm fast-medium,Sunrisers Hyderabad,116,33,201,169,26,12.56,118.94,17,16,7,2,0,0,0,0,0,116,115,2351,3504,3,114,30.74,,20.62,5/25,5/25,0,2,0,sunrisers-hyderabad__jaydev-unadkat.jpg
+Harshal Patel,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,122,48,274,233,36,8.84,117.60,17,17,15,10,0,0,0,0,0,122,119,2470,3673,2,151,24.32,,16.36,5/27,5/27,4,1,0,sunrisers-hyderabad__harshal-patel.jpg
+Zeeshan Ansari,Bowler,Right Handed Bat,Right-arm legbreak,Sunrisers Hyderabad,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,203,333,0,6,55.5,,33.83,3/42,3/42,0,0,0,sunrisers-hyderabad__zeeshan-ansari.jpg
+Sakib Hussain,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,48,56,0,5,11.2,,9.6,4/24,4/24,1,0,0,sunrisers-hyderabad__sakib-hussain.jpg
 Onkar Tarmale,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__onkar-tarmale.jpg
 Amit Kumar,Bowler,Right Handed Bat,Right-arm legbreak,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__amit-kumar.jpg
-Praful Hinge,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__praful-hinge.jpg
+Praful Hinge,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,2,1,0,1,0,0,0.00,1,0,0,0,0,0,0,0,0,2,2,48,94,0,5,18.8,,9.6,4/34,4/34,1,0,0,sunrisers-hyderabad__praful-hinge.jpg
 Krains Fuletra,Bowler,Right Handed Bat,Left-arm wrist-spin,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__krains-fuletra.jpg
-Shivam Mavi,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__shivam-mavi.jpg
-Dilshan Madushanka,Bowler,Right Handed Bat,Left-arm fast-medium,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__dilshan-madushanka.jpg
-Gerald Coetzee,Bowler,Right Handed Bat,Right-arm fast,Sunrisers Hyderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sunrisers-hyderabad__gerald-coetzee.jpg
-Shubham Dubey,Batsman,Left Handed Bat,Right-arm offbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__shubham-dubey.jpg
-Shimron Hetmyer,Batsman,Left Handed Bat,,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__shimron-hetmyer.jpg
-Yashasvi Jaiswal,Batsman,Left Handed Bat,Right-arm legbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__yashasvi-jaiswal.jpg
-Vaibhav Sooryavanshi,Batsman,Left Handed Bat,Left-arm orthodox,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__vaibhav-sooryavanshi.jpg
+Shivam Mavi,Bowler,Right Handed Bat,Right-arm fast-medium,Sunrisers Hyderabad,32,12,51,56,20,5.67,91.08,3,4,2,3,0,0,0,0,0,32,32,649,942,2,30,31.4,,21.63,4/21,4/21,1,0,0,sunrisers-hyderabad__shivam-mavi.jpg
+Dilshan Madushanka,Bowler,Right Handed Bat,Left-arm fast-medium,Sunrisers Hyderabad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,sunrisers-hyderabad__dilshan-madushanka.jpg
+Gerald Coetzee,Bowler,Right Handed Bat,Right-arm fast,Sunrisers Hyderabad,14,7,31,33,12,5.17,93.94,1,2,2,1,0,0,0,0,0,14,14,273,472,0,15,31.47,,18.2,4/34,4/34,1,0,0,sunrisers-hyderabad__gerald-coetzee.jpg
+Shubham Dubey,Batsman,Left Handed Bat,Right-arm offbreak,Rajasthan Royals,13,11,139,85,34,23.17,163.53,5,9,10,1,0,0,0,0,0,13,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__shubham-dubey.jpg
+Shimron Hetmyer,Batsman,Left Handed Bat,,Rajasthan Royals,91,83,1521,1010,75,28.17,150.60,29,94,95,4,5,0,0,0,0,91,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__shimron-hetmyer.jpg
+Yashasvi Jaiswal,Batsman,Left Handed Bat,Right-arm legbreak,Rajasthan Royals,72,72,2389,1563,124,35.66,152.85,5,281,104,4,17,2,0,0,0,72,1,1,6,0,0,0.0,,0.0,0/6,0/6,0,0,0,rajasthan-royals__yashasvi-jaiswal.jpg
+Vaibhav Sooryavanshi,Batsman,Left Handed Bat,Left-arm orthodox,Rajasthan Royals,13,13,498,226,101,38.31,220.36,0,42,44,2,3,1,0,0,0,13,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__vaibhav-sooryavanshi.jpg
 Aman Rao Perala,Batsman,Right Handed Bat,,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__aman-rao-perala.jpg
-Riyan Parag,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__riyan-parag.jpg
-Dasun Shanaka,Batting Allrounder,Right Handed Bat,Right-arm medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__dasun-shanaka.jpg
-Ravindra Jadeja,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__ravindra-jadeja.jpg
-Dhruv Jurel,WK-Batsman,Right Handed Bat,,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__dhruv-jurel.jpg
-Lhuan-dre Pretorius,WK-Batsman,Left Handed Bat,,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__lhuan-dre-pretorius.jpg
-Donovan Ferreira,WK-Batsman,Right Handed Bat,Right-arm offbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__donovan-ferreira.jpg
+Riyan Parag,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,89,78,1627,1154,95,25.03,140.99,13,115,91,3,7,0,0,0,0,89,33,313,503,0,9,55.89,,34.78,1/5,1/5,0,0,0,rajasthan-royals__riyan-parag.jpg
+Dasun Shanaka,Batting Allrounder,Right Handed Bat,Right-arm medium,Rajasthan Royals,3,3,26,26,17,13,100.00,1,2,1,1,0,0,0,0,0,3,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__dasun-shanaka.jpg
+Ravindra Jadeja,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Rajasthan Royals,260,202,3345,2574,77,28.11,129.96,83,248,117,9,5,0,0,0,0,260,229,4116,5253,2,175,30.02,,23.52,5/16,5/16,3,1,0,rajasthan-royals__ravindra-jadeja.jpg
+Dhruv Jurel,WK-Batsman,Right Handed Bat,,Rajasthan Royals,47,41,861,548,81,29.69,157.12,12,68,46,4,6,0,0,0,0,47,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__dhruv-jurel.jpg
+Lhuan-dre Pretorius,WK-Batsman,Left Handed Bat,,Rajasthan Royals,1,1,0,2,0,0,0.00,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__lhuan-dre-pretorius.jpg
+Donovan Ferreira,WK-Batsman,Right Handed Bat,Right-arm offbreak,Rajasthan Royals,8,6,86,68,69,14.33,126.48,0,7,4,0,1,0,0,0,0,8,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,rajasthan-royals__donovan-ferreira.jpg
 Ravi Singh,WK-Batsman,Left Handed Bat,Right-arm legbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__ravi-singh.jpg
-Jofra Archer,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__jofra-archer.jpg
-Nandre Burger,Bowler,Left Handed Bat,Left-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__nandre-burger.jpg
-Tushar Deshpande,Bowler,Left Handed Bat,Right-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__tushar-deshpande.jpg
-Kwena Maphaka,Bowler,Left Handed Bat,Left-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__kwena-maphaka.jpg
-Sandeep Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__sandeep-sharma.jpg
-Yudhvir Singh Charak,Bowler,Right Handed Bat,Right-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__yudhvir-singh-charak.jpg
-Vignesh Puthur,Bowler,Right Handed Bat,Left-arm wrist-spin,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__vignesh-puthur.jpg
-Yash Raj Punja,Bowler,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__yash-raj-punja.jpg
+Jofra Archer,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,58,35,273,190,30,13,143.69,14,15,18,5,0,0,0,0,0,58,58,1344,1781,3,67,26.58,,20.06,3/15,3/15,0,0,0,rajasthan-royals__jofra-archer.jpg
+Nandre Burger,Bowler,Left Handed Bat,Left-arm fast-medium,Rajasthan Royals,11,1,3,5,3,0,60.00,1,0,0,0,0,0,0,0,0,11,11,210,304,0,13,23.38,,16.15,2/21,2/21,0,0,0,rajasthan-royals__nandre-burger.jpg
+Tushar Deshpande,Bowler,Left Handed Bat,Right-arm fast-medium,Rajasthan Royals,49,9,53,33,25,17.67,160.61,6,2,4,0,0,0,0,0,0,49,49,1019,1691,0,54,31.31,,18.87,4/27,4/27,1,0,0,rajasthan-royals__tushar-deshpande.jpg
+Kwena Maphaka,Bowler,Left Handed Bat,Left-arm fast-medium,Rajasthan Royals,4,1,8,2,8,0,400.00,1,2,0,0,0,0,0,0,0,4,4,66,143,0,2,71.5,,33.0,1/23,1/23,0,0,0,rajasthan-royals__kwena-maphaka.jpg
+Sandeep Sharma,Bowler,Right Handed Bat,Right-arm fast-medium,Rajasthan Royals,141,28,60,75,9,10,80.00,22,4,0,4,0,0,0,0,0,141,141,3141,4251,8,151,28.15,,20.8,5/18,5/18,2,1,0,rajasthan-royals__sandeep-sharma.jpg
+Yudhvir Singh Charak,Bowler,Right Handed Bat,Right-arm fast-medium,Rajasthan Royals,9,4,22,16,14,5.5,137.50,0,1,2,1,0,0,0,0,0,9,9,138,253,0,8,31.63,,17.25,3/47,3/47,0,0,0,rajasthan-royals__yudhvir-singh-charak.jpg
+Vignesh Puthur,Bowler,Right Handed Bat,Left-arm wrist-spin,Rajasthan Royals,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,72,109,0,6,18.17,,12.0,3/32,3/32,0,0,0,rajasthan-royals__vignesh-puthur.jpg
+Yash Raj Punja,Bowler,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,24,25,0,1,25.0,,24.0,1/25,1/25,0,0,0,rajasthan-royals__yash-raj-punja.jpg
 Sushant Mishra,Bowler,Left Handed Bat,Left-arm fast-medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__sushant-mishra.jpg
-Ravi Bishnoi,Bowler,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__ravi-bishnoi.jpg
-Brijesh Sharma,Bowler,Right Handed Bat,Right-arm medium,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__brijesh-sharma.jpg
-Adam Milne,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__adam-milne.jpg
-Kuldeep Sen,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rajasthan-royals__kuldeep-sen.jpg
-Himmat Singh,Batsman,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__himmat-singh.jpg
-Aiden Markram,Batsman,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__aiden-markram.jpg
+Ravi Bishnoi,Bowler,Right Handed Bat,Right-arm legbreak,Rajasthan Royals,83,20,45,69,13,3.75,65.22,8,2,2,4,0,0,0,0,0,83,82,1753,2427,1,82,29.6,,21.38,4/41,4/41,1,0,0,rajasthan-royals__ravi-bishnoi.jpg
+Brijesh Sharma,Bowler,Right Handed Bat,Right-arm medium,Rajasthan Royals,3,1,1,3,1,0,33.34,1,0,0,0,0,0,0,0,0,3,3,52,75,0,3,25.0,,17.33,2/37,2/37,0,0,0,rajasthan-royals__brijesh-sharma.jpg
+Adam Milne,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,10,6,23,29,15,5.75,79.32,2,0,1,1,0,0,0,0,0,10,10,207,327,0,7,46.71,,29.57,2/21,2/21,0,0,0,rajasthan-royals__adam-milne.jpg
+Kuldeep Sen,Bowler,Right Handed Bat,Right-arm fast,Rajasthan Royals,12,1,0,3,0,0,0.00,1,0,0,0,0,0,0,0,0,12,12,241,387,0,14,27.64,,17.21,4/20,4/20,1,0,0,rajasthan-royals__kuldeep-sen.jpg
+Himmat Singh,Batsman,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,4,1,1,1,1,0,100.00,1,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__himmat-singh.jpg
+Aiden Markram,Batsman,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,63,61,1602,1167,68,30.81,137.28,9,128,66,2,10,0,0,0,0,63,22,209,334,0,6,55.67,,34.83,2/30,2/30,0,0,0,lucknow-super-giants__aiden-markram.jpg
 Akshat Raghuwanshi,Batsman,Right Handed Bat,,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__akshat-raghuwanshi.jpg
-Abdul Samad,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__abdul-samad.jpg
-Ayush Badoni,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__ayush-badoni.jpg
-Arshin Kulkarni,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__arshin-kulkarni.jpg
-Mitchell Marsh,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__mitchell-marsh.jpg
-George Linde,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__george-linde.jpg
-Shahbaz Ahmed,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__shahbaz-ahmed.jpg
-Arjun Tendulkar,Bowling Allrounder,Left Handed Bat,Left-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__arjun-tendulkar.jpg
-Rishabh Pant,WK-Batsman,Left Handed Bat,,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__rishabh-pant.jpg
-Matthew Breetzke,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__matthew-breetzke.jpg
-Nicholas Pooran,WK-Batsman,Left Handed Bat,Right-arm offbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__nicholas-pooran.jpg
-Mukul Choudhary,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__mukul-choudhary.jpg
-Josh Inglis,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__josh-inglis.jpg
-Akash Maharaj Singh,Bowler,Right Handed Bat,Left-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__akash-maharaj-singh.jpg
-Avesh Khan,Bowler,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__avesh-khan.jpg
-Mohammed Shami,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__mohammed-shami.jpg
-Prince Yadav,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__prince-yadav.jpg
-Mohsin Khan,Bowler,Left Handed Bat,Left-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__mohsin-khan.jpg
-Digvesh Singh Rathi,Bowler,Right Handed Bat,Right-arm legbreak,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__digvesh-singh-rathi.jpg
-Manimaran Siddharth,Bowler,Right Handed Bat,Left-arm orthodox,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__manimaran-siddharth.jpg
-Mayank Yadav,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__mayank-yadav.jpg
-Anrich Nortje,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__anrich-nortje.jpg
+Abdul Samad,Batting Allrounder,Right Handed Bat,Right-arm legbreak,Lucknow Super Giants,68,57,813,553,45,18.91,147.02,14,52,51,4,0,0,0,0,0,68,7,57,125,0,2,62.5,,28.5,1/9,1/9,0,0,0,lucknow-super-giants__abdul-samad.jpg
+Ayush Badoni,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Lucknow Super Giants,62,52,1111,797,74,26.45,139.40,10,91,42,3,7,0,0,0,0,62,8,41,63,0,4,15.75,,10.25,2/4,2/4,0,0,0,lucknow-super-giants__ayush-badoni.jpg
+Arshin Kulkarni,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,2,2,9,8,9,4.5,112.50,0,2,0,1,0,0,0,0,0,2,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__arshin-kulkarni.jpg
+Mitchell Marsh,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,61,55,1447,1019,117,27.3,142.01,2,116,84,7,9,1,0,0,0,61,34,560,795,1,37,21.49,,15.14,4/25,4/25,2,0,0,lucknow-super-giants__mitchell-marsh.jpg
+George Linde,Batting Allrounder,Left Handed Bat,Left-arm orthodox,Lucknow Super Giants,2,2,23,17,16,11.5,135.30,0,4,0,0,0,0,0,0,0,2,2,25,37,0,0,0.0,,0.0,0/9,0/9,0,0,0,lucknow-super-giants__george-linde.jpg
+Shahbaz Ahmed,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Lucknow Super Giants,59,39,560,464,59,19.31,120.69,10,30,25,1,1,0,0,0,0,59,46,594,955,0,22,43.41,,27.0,3/7,3/7,0,0,0,lucknow-super-giants__shahbaz-ahmed.jpg
+Arjun Tendulkar,Bowling Allrounder,Left Handed Bat,Left-arm fast-medium,Lucknow Super Giants,5,1,13,9,13,13,144.45,0,0,1,0,0,0,0,0,0,5,5,73,114,0,3,38.0,,24.33,1/9,1/9,0,0,0,lucknow-super-giants__arjun-tendulkar.jpg
+Rishabh Pant,WK-Batsman,Left Handed Bat,,Lucknow Super Giants,131,129,3700,2515,128,33.94,147.12,20,333,175,6,20,2,0,0,0,131,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__rishabh-pant.jpg
+Matthew Breetzke,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,1,1,14,12,14,14,116.67,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__matthew-breetzke.jpg
+Nicholas Pooran,WK-Batsman,Left Handed Bat,Right-arm offbreak,Lucknow Super Giants,96,93,2344,1421,87,32.11,164.96,20,159,170,9,14,0,0,0,0,96,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__nicholas-pooran.jpg
+Mukul Choudhary,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,6,6,148,102,54,49.33,145.10,3,9,11,0,1,0,0,0,0,6,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__mukul-choudhary.jpg
+Josh Inglis,WK-Batsman,Right Handed Bat,,Lucknow Super Giants,11,11,278,171,73,30.89,162.58,2,26,16,0,1,0,0,0,0,11,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,lucknow-super-giants__josh-inglis.jpg
+Akash Maharaj Singh,Bowler,Right Handed Bat,Left-arm fast-medium,Lucknow Super Giants,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,205,326,0,9,36.22,,22.78,2/30,2/30,0,0,0,lucknow-super-giants__akash-maharaj-singh.jpg
+Avesh Khan,Bowler,Right Handed Bat,Right-arm fast-medium,Lucknow Super Giants,80,17,68,43,19,17,158.14,13,7,4,1,0,0,0,0,0,80,80,1721,2634,1,92,28.63,,18.71,4/24,4/24,1,0,0,lucknow-super-giants__avesh-khan.jpg
+Mohammed Shami,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,125,33,98,100,21,5.76,98.00,16,8,3,5,0,0,0,0,0,125,125,2744,3934,3,138,28.51,,19.88,4/11,4/11,2,0,0,lucknow-super-giants__mohammed-shami.jpg
+Prince Yadav,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,12,2,5,10,4,0,50.00,2,0,0,0,0,0,0,0,0,12,12,269,414,0,14,29.57,,19.21,3/32,3/32,0,0,0,lucknow-super-giants__prince-yadav.jpg
+Mohsin Khan,Bowler,Left Handed Bat,Left-arm fast-medium,Lucknow Super Giants,26,6,25,25,13,6.25,100.00,2,2,1,2,0,0,0,0,0,26,25,534,751,3,29,25.9,,18.41,4/16,4/16,1,0,0,lucknow-super-giants__mohsin-khan.jpg
+Digvesh Singh Rathi,Bowler,Right Handed Bat,Right-arm legbreak,Lucknow Super Giants,17,3,1,6,1,1,16.67,2,0,0,0,0,0,0,0,0,17,17,408,582,0,17,34.24,,24.0,2/30,2/30,0,0,0,lucknow-super-giants__digvesh-singh-rathi.jpg
+Manimaran Siddharth,Bowler,Right Handed Bat,Left-arm orthodox,Lucknow Super Giants,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,162,236,0,7,33.71,,23.14,2/35,2/35,0,0,0,lucknow-super-giants__manimaran-siddharth.jpg
+Mayank Yadav,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,121,185,0,9,20.56,,13.44,3/14,3/14,0,0,0,lucknow-super-giants__mayank-yadav.jpg
+Anrich Nortje,Bowler,Right Handed Bat,Right-arm fast,Lucknow Super Giants,49,18,49,50,23,7,98.00,11,6,0,3,0,0,0,0,0,49,49,1120,1696,1,61,27.8,,18.36,3/33,3/33,0,0,0,lucknow-super-giants__anrich-nortje.jpg
 Naman Tiwari,Bowler,Left Handed Bat,Left-arm fast-medium,Lucknow Super Giants,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lucknow-super-giants__naman-tiwari.jpg
-Naman Dhir,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__naman-dhir.jpg
-Rohit Sharma,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__rohit-sharma.jpg
-Suryakumar Yadav,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__suryakumar-yadav.jpg
-Tilak Varma,Batsman,Left Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__tilak-varma.jpg
-Danish Malewar,Batsman,Right Handed Bat,Right-arm legbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__danish-malewar.jpg
-Sherfane Rutherford,Batting Allrounder,Left Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__sherfane-rutherford.jpg
-Hardik Pandya,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__hardik-pandya.jpg
-Raj Bawa,Batting Allrounder,Left Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__raj-bawa.jpg
-Will Jacks,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__will-jacks.jpg
-Mayank Rawat,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__mayank-rawat.jpg
-Krish Bhagat,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__krish-bhagat.jpg
-Corbin Bosch,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__corbin-bosch.jpg
-Mitchell Santner,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__mitchell-santner.jpg
-Shardul Thakur,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__shardul-thakur.jpg
+Naman Dhir,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,29,25,546,318,62,28.74,171.70,6,51,29,3,2,0,0,0,0,29,5,52,76,0,0,0.0,,0.0,0/9,0/9,0,0,0,mumbai-indians__naman-dhir.jpg
+Rohit Sharma,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,276,271,7183,5417,109,29.8,132.61,30,653,310,18,48,2,0,0,0,276,32,339,453,0,15,30.2,,22.6,4/6,4/6,1,0,0,mumbai-indians__rohit-sharma.jpg
+Suryakumar Yadav,Batsman,Right Handed Bat,Right-arm offbreak,Mumbai Indians,172,157,4432,2980,103,34.36,148.73,28,466,172,11,30,2,0,0,0,172,1,6,8,0,0,0.0,,0.0,0/8,0/8,0,0,0,mumbai-indians__suryakumar-yadav.jpg
+Tilak Varma,Batsman,Left Handed Bat,Right-arm offbreak,Mumbai Indians,60,57,1643,1115,101,36.51,147.36,12,129,81,2,8,1,0,0,0,60,4,22,28,0,0,0.0,,0.0,0/6,0/6,0,0,0,mumbai-indians__tilak-varma.jpg
+Danish Malewar,Batsman,Right Handed Bat,Right-arm legbreak,Mumbai Indians,1,1,2,4,2,2,50.00,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__danish-malewar.jpg
+Sherfane Rutherford,Batting Allrounder,Left Handed Bat,Right-arm fast-medium,Mumbai Indians,29,25,500,342,71,26.32,146.20,6,29,37,1,1,0,0,0,0,29,6,41,59,0,1,59.0,,41.0,1/6,1/6,0,0,0,mumbai-indians__sherfane-rutherford.jpg
+Hardik Pandya,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,157,145,2845,1938,91,28.17,146.81,44,219,150,6,10,0,0,0,0,157,112,1706,2644,0,81,32.64,,21.06,5/36,5/36,0,1,0,mumbai-indians__hardik-pandya.jpg
+Raj Bawa,Batting Allrounder,Left Handed Bat,Right-arm fast-medium,Mumbai Indians,5,3,19,18,11,9.5,105.56,1,1,0,1,0,0,0,0,0,5,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__raj-bawa.jpg
+Will Jacks,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Mumbai Indians,21,19,463,303,100,27.24,152.81,2,38,29,0,2,1,0,0,0,21,13,138,220,0,8,27.5,,17.25,2/14,2/14,0,0,0,mumbai-indians__will-jacks.jpg
+Mayank Rawat,Batting Allrounder,Right Handed Bat,Right-arm offbreak,Mumbai Indians,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__mayank-rawat.jpg
+Krish Bhagat,Batting Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,12,10,0,0,0.0,,0.0,0/10,0/10,0,0,0,mumbai-indians__krish-bhagat.jpg
+Corbin Bosch,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,4,3,58,36,27,29,161.12,1,5,3,0,0,0,0,0,0,4,3,61,94,0,2,47.0,,30.5,1/26,1/26,0,0,0,mumbai-indians__corbin-bosch.jpg
+Mitchell Santner,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Mumbai Indians,34,21,136,123,22,17,110.57,13,9,6,1,0,0,0,0,0,34,34,663,816,0,29,28.14,,22.86,3/11,3/11,0,0,0,mumbai-indians__mitchell-santner.jpg
+Shardul Thakur,Bowling Allrounder,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,110,43,333,240,68,11.48,138.75,14,31,13,8,1,0,0,0,0,110,107,2154,3434,3,113,30.39,,19.06,4/34,4/34,2,0,0,mumbai-indians__shardul-thakur.jpg
 Atharva Ankolekar,Bowling Allrounder,Left Handed Bat,Left-arm orthodox,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__atharva-ankolekar.jpg
-Robin Minz,WK-Batsman,Left Handed Bat,Left-arm orthodox,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__robin-minz.jpg
-Ryan Rickelton,WK-Batsman,Left Handed Bat,,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__ryan-rickelton.jpg
-Quinton de Kock,WK-Batsman,Left Handed Bat,,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__quinton-de-kock.jpg
-Trent Boult,Bowler,Right Handed Bat,Left-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__trent-boult.jpg
-Ashwani Kumar,Bowler,Left Handed Bat,Left-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__ashwani-kumar.jpg
-Jasprit Bumrah,Bowler,Right Handed Bat,Right-arm fast,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__jasprit-bumrah.jpg
-Deepak Chahar,Bowler,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__deepak-chahar.jpg
-Mayank Markande,Bowler,Right Handed Bat,Right-arm legbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__mayank-markande.jpg
-AM Ghazanfar,Bowler,Right Handed Bat,Right-arm offbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__am-ghazanfar.jpg
+Robin Minz,WK-Batsman,Left Handed Bat,Left-arm orthodox,Mumbai Indians,2,2,6,15,3,3,40.00,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__robin-minz.jpg
+Ryan Rickelton,WK-Batsman,Left Handed Bat,,Mumbai Indians,19,19,525,345,81,29.17,152.18,1,56,29,0,4,0,0,0,0,19,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__ryan-rickelton.jpg
+Quinton de Kock,WK-Batsman,Left Handed Bat,,Mumbai Indians,117,117,3434,2540,140,31.5,135.20,8,334,142,4,24,3,0,0,0,117,0,0,0,0,0,0.0,,0.0,-/-,-/-,0,0,0,mumbai-indians__quinton-de-kock.jpg
+Trent Boult,Bowler,Right Handed Bat,Left-arm fast-medium,Mumbai Indians,122,30,86,83,17,8.6,103.62,20,5,3,3,0,0,0,0,0,122,122,2737,3857,11,144,26.78,,19.01,4/18,4/18,2,0,0,mumbai-indians__trent-boult.jpg
+Ashwani Kumar,Bowler,Left Handed Bat,Left-arm fast-medium,Mumbai Indians,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,147,256,0,15,17.07,,9.8,4/24,4/24,2,0,0,mumbai-indians__ashwani-kumar.jpg
+Jasprit Bumrah,Bowler,Right Handed Bat,Right-arm fast,Mumbai Indians,151,32,73,81,16,10.43,90.13,25,6,1,5,0,0,0,0,0,151,151,3469,4211,7,184,22.89,,18.85,5/10,5/10,3,2,0,mumbai-indians__jasprit-bumrah.jpg
+Deepak Chahar,Bowler,Right Handed Bat,Right-arm fast-medium,Mumbai Indians,98,18,123,89,39,15.38,138.21,10,6,8,4,0,0,0,0,0,98,98,1954,2684,7,89,30.16,,21.96,4/13,4/13,2,0,0,mumbai-indians__deepak-chahar.jpg
+Mayank Markande,Bowler,Right Handed Bat,Right-arm legbreak,Mumbai Indians,40,11,48,42,18,16,114.29,8,5,1,0,0,0,0,0,0,40,40,750,1145,0,37,30.95,,20.27,4/15,4/15,2,0,0,mumbai-indians__mayank-markande.jpg
+AM Ghazanfar,Bowler,Right Handed Bat,Right-arm offbreak,Mumbai Indians,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,77,120,0,6,20.0,,12.83,2/17,2/17,0,0,0,mumbai-indians__am-ghazanfar.jpg
 Raghu Sharma,Bowler,Right Handed Bat,Right-arm legbreak,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__raghu-sharma.jpg
 Mohammed Salahuddin Izhar,Bowler,Right Handed Bat,Left-arm fast-medium,Mumbai Indians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mumbai-indians__mohammed-salahuddin-izhar.jpg

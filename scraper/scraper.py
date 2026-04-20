@@ -40,10 +40,12 @@ from config import (
     IMAGES_DIR,
     CSV_PATH,
     CSV_COLUMNS,
+    BATTING_ROW_MAP,
+    BOWLING_ROW_MAP,
+    BATTING_ONLY_LABELS,
+    BOWLING_ONLY_LABELS,
     BATTING_HEADER_MAP,
     BOWLING_HEADER_MAP,
-    EXTRA_BATTING_COLS,
-    EXTRA_BOWLING_COLS,
     TEAM_NAMES,
     REQUEST_DELAY_MIN,
     REQUEST_DELAY_MAX,
@@ -182,50 +184,34 @@ class IPLScraper:
     async def get_all_team_players(self) -> list[dict[str, str]]:
         """
         Navigate to squads page and iterate through all 10 teams.
-        
-        The squads page is SPA-style: the sidebar uses <div> elements
-        (class like 'w-full px-4 py-2 tb:cursor-pointer') with <span>
-        children containing team names. Clicking a team updates the
-        right-side content area without changing the URL.
-        
-        Strategy:
-        1. Go to the squads page and wait for full render
-        2. Discover all available team names from the sidebar
-        3. Click each team using JS (targeting the span element)
-        4. Wait for content update
-        5. Extract player profile URLs from the updated DOM
+
+        Cricbuzz uses React/Next.js — vanilla JS el.click() does NOT fire
+        React synthetic event handlers. We MUST use Playwright's native
+        page.click() which dispatches real mouse events.
         """
         logger.info("=" * 60)
         logger.info("Step 1: Navigating to squads page")
         logger.info("=" * 60)
 
         await self._navigate(SQUADS_URL)
-        # Extra wait for sidebar to fully render
-        await self.page.wait_for_timeout(2000)
-
-        # First, discover what teams are actually visible on the page
-        available_teams = await self._discover_teams()
-        logger.info("Discovered %d teams on the page: %s", len(available_teams), available_teams)
+        await self.page.wait_for_timeout(3000)
 
         all_players = []
 
-        for team_idx, team_name in enumerate(available_teams):
+        for team_idx, team_name in enumerate(TEAM_NAMES):
             logger.info(
                 "\n[%d/%d] Processing team: %s",
-                team_idx + 1, len(available_teams), team_name
+                team_idx + 1, len(TEAM_NAMES), team_name
             )
 
             try:
-                # Click the team name in the sidebar
                 clicked = await self._click_team(team_name)
                 if not clicked:
                     logger.warning("  ⚠ Could not click team, trying next...")
                     continue
 
-                # Wait for the content area to update
                 await self.page.wait_for_timeout(3000)
 
-                # Extract player links from the current DOM
                 players = await self._extract_players_from_dom(team_name)
                 all_players.extend(players)
 
@@ -245,152 +231,57 @@ class IPLScraper:
         )
         return all_players
 
-    async def _discover_teams(self) -> list[str]:
-        """
-        Discover all team names currently visible in the sidebar.
-        The sidebar uses div > span elements with team names.
-        Falls back to the hardcoded TEAM_NAMES list if discovery fails.
-        """
-        teams = await self.page.evaluate("""
-            () => {
-                const teams = [];
-                
-                // Strategy 1: Find divs with cursor-pointer class that contain team names
-                const clickableDivs = document.querySelectorAll('div[class*="cursor-pointer"]');
-                for (const div of clickableDivs) {
-                    const span = div.querySelector('span');
-                    if (span) {
-                        const name = span.textContent.trim();
-                        if (name.length > 3 && name.length < 50) {
-                            teams.push(name);
-                        }
-                    }
-                }
-                
-                if (teams.length > 0) return teams;
-                
-                // Strategy 2: Find all spans that match known IPL team name patterns
-                const allSpans = document.querySelectorAll('span');
-                const knownPatterns = ['Kings', 'Super', 'Indians', 'Titans', 'Capitals', 
-                                       'Challengers', 'Riders', 'Royals', 'Sunrisers'];
-                for (const span of allSpans) {
-                    const text = span.textContent.trim();
-                    if (text.length > 5 && text.length < 50 && 
-                        knownPatterns.some(p => text.includes(p))) {
-                        if (!teams.includes(text)) {
-                            teams.push(text);
-                        }
-                    }
-                }
-                
-                if (teams.length > 0) return teams;
-                
-                // Strategy 3: Broader search in all text-containing elements
-                const allElements = document.querySelectorAll('div, a, span, p');
-                for (const el of allElements) {
-                    // Only leaf nodes or near-leaf nodes
-                    if (el.children.length > 3) continue;
-                    const text = el.textContent.trim();
-                    if (knownPatterns.some(p => text.includes(p)) && 
-                        text.length > 5 && text.length < 50) {
-                        if (!teams.includes(text)) {
-                            teams.push(text);
-                        }
-                    }
-                }
-                
-                return teams;
-            }
-        """)
-
-        if teams and len(teams) >= 5:
-            return teams
-        
-        # Fallback to hardcoded team names
-        logger.warning("Team discovery found only %d teams, using hardcoded list", len(teams or []))
-        return TEAM_NAMES
-
     async def _click_team(self, team_name: str) -> bool:
         """
-        Click a team name in the sidebar.
-        
-        The sidebar structure is:
-            <div class="w-full px-4 py-2 tb:cursor-pointer ...">
-                <span>Chennai Super Kings</span>
-            </div>
-        
-        Uses JavaScript to find and click the correct element.
-        Returns True if click was successful, False otherwise.
+        Click a team name using Playwright's NATIVE click (not JS eval).
+
+        Cricbuzz is built with React — el.click() in JS does not trigger
+        React's synthetic event system. Playwright's page.click() dispatches
+        real trusted mouse events that React properly captures.
         """
-        # Strategy 1: JS click — find span with exact team name text and click its parent div
-        clicked = await self.page.evaluate("""
-            (teamName) => {
-                // Find span elements containing the exact team name
-                const allSpans = document.querySelectorAll('span');
-                for (const span of allSpans) {
-                    if (span.textContent.trim() === teamName) {
-                        // Click the span's parent div (the clickable container)
-                        const clickTarget = span.closest('div[class*="cursor"]') || span.parentElement || span;
-                        clickTarget.click();
-                        return 'span-parent';
-                    }
-                }
-                
-                // Try clicking the span itself
-                for (const span of allSpans) {
-                    if (span.textContent.trim() === teamName) {
-                        span.click();
-                        return 'span-direct';
-                    }
-                }
-                
-                // Try divs with the team name
-                const allDivs = document.querySelectorAll('div');
-                for (const div of allDivs) {
-                    // Only consider leaf-ish divs (not large containers)
-                    if (div.children.length <= 3 && div.textContent.trim() === teamName) {
-                        div.click();
-                        return 'div-direct';
-                    }
-                }
-                
-                // Partial match as last resort
-                for (const span of allSpans) {
-                    if (span.textContent.trim().includes(teamName) && 
-                        span.textContent.trim().length < teamName.length + 20) {
-                        const clickTarget = span.closest('div[class*="cursor"]') || span.parentElement || span;
-                        clickTarget.click();
-                        return 'partial-match';
-                    }
-                }
-                
-                return null;
-            }
-        """, team_name)
-
-        if clicked:
-            logger.info("  Clicked team via: %s", clicked)
-            return True
-
-        # Strategy 2: Playwright locator — find by role or text
-        try:
-            locator = self.page.locator(f"span:text-is('{team_name}')")
-            if await locator.count() > 0:
-                await locator.first.click()
-                logger.info("  Clicked team via: playwright-locator")
-                return True
-        except Exception:
-            pass
-
-        # Strategy 3: Try clicking with get_by_text
+        # Strategy 1: Playwright get_by_text (most reliable)
         try:
             locator = self.page.get_by_text(team_name, exact=True)
-            if await locator.count() > 0:
+            count = await locator.count()
+            if count > 0:
                 await locator.first.click()
-                logger.info("  Clicked team via: get-by-text")
+                logger.info("  Clicked team via: get_by_text")
                 return True
-        except Exception:
-            pass
+        except Exception as e:
+            logger.debug("  get_by_text failed: %s", str(e))
+
+        # Strategy 2: Playwright locator with span text selector
+        try:
+            locator = self.page.locator(f"span:text-is('{team_name}')")
+            count = await locator.count()
+            if count > 0:
+                await locator.first.click()
+                logger.info("  Clicked team via: span-locator")
+                return True
+        except Exception as e:
+            logger.debug("  span-locator failed: %s", str(e))
+
+        # Strategy 3: XPath-based locator
+        try:
+            locator = self.page.locator(f"//span[normalize-space()='{team_name}']")
+            count = await locator.count()
+            if count > 0:
+                await locator.first.click()
+                logger.info("  Clicked team via: xpath")
+                return True
+        except Exception as e:
+            logger.debug("  xpath failed: %s", str(e))
+
+        # Strategy 4: CSS + text filter
+        try:
+            locator = self.page.locator("div").filter(has_text=re.compile(f"^{re.escape(team_name)}$"))
+            count = await locator.count()
+            if count > 0:
+                await locator.first.click()
+                logger.info("  Clicked team via: div-filter")
+                return True
+        except Exception as e:
+            logger.debug("  div-filter failed: %s", str(e))
 
         logger.warning("Could not click team: %s", team_name)
         return False
@@ -543,10 +434,10 @@ class IPLScraper:
             # ── Build image filename ──
             data["player_image_filename"] = build_image_filename(team, name)
 
-            # ── Fill in extra columns (always blank on Cricbuzz) ──
-            for col, default in {**EXTRA_BATTING_COLS, **EXTRA_BOWLING_COLS}.items():
-                if not data.get(col):
-                    data[col] = default
+            # Ensure all CSV columns exist (blank if not found)
+            for col in CSV_COLUMNS:
+                if col not in data:
+                    data[col] = ""
 
         except Exception as e:
             logger.error("    ✗ Failed to scrape %s: %s", name, str(e))
@@ -686,66 +577,113 @@ class IPLScraper:
     def _parse_batting_stats(self, tables_data: list, data: dict) -> None:
         """
         Parse IPL batting stats from extracted table data.
-        The batting table is typically at index 2 and has columns like:
-        ["", "M", "Inn", "NO", "Runs", "HS", "Avg", "BF", "SR", "100s", "200s", "50s", "4s", "6s", "0s"]
+
+        Cricbuzz uses a TRANSPOSED layout:
+            Headers:  ["", "Test", "ODI", "T20", "IPL"]
+            Row 0:    ["Matches", "113", "275", "115", "252"]
+            Row 1:    ["Innings", "210", "299", "117", "245"]
+            ...
+
+        We need to find the IPL COLUMN index, then read each row's
+        first cell (stat label) and its IPL column value.
         """
         for table in tables_data:
             headers = table.get("headers", [])
-            
-            # Identify batting table: has Runs, HS/Avg, SR but NOT Wkts
+            rows = table.get("rows", [])
+            if not rows:
+                continue
+
+            # --- TRANSPOSED LAYOUT (IPL is a column header) ---
+            ipl_col = self._find_ipl_column(headers)
+            if ipl_col is not None:
+                row_labels = {row[0].strip() for row in rows if row}
+                is_batting = bool(row_labels & BATTING_ONLY_LABELS)
+                is_bowling = bool(row_labels & BOWLING_ONLY_LABELS)
+
+                if is_batting and not is_bowling:
+                    for row in rows:
+                        if not row or len(row) <= ipl_col:
+                            continue
+                        label = row[0].strip()
+                        value = row[ipl_col].strip()
+                        csv_col = BATTING_ROW_MAP.get(label)
+                        if csv_col:
+                            data[csv_col] = value if value and value != "-" else ""
+                    logger.info("      ✓ IPL batting stats extracted (transposed)")
+                    return
+
+            # --- LEGACY LAYOUT (IPL is a row, stats are columns) ---
             if not headers:
                 continue
             has_batting = ("Runs" in headers and ("HS" in headers or "Avg" in headers))
             has_bowling = ("Wkts" in headers or "Wickets" in headers)
-            
             if has_batting and not has_bowling:
-                # Find the IPL row
-                for row in table.get("rows", []):
+                for row in rows:
                     if not row:
                         continue
-                    first_cell = row[0].upper().strip()
-                    if first_cell == "IPL" or "IPL" in first_cell:
-                        # Map row values using headers
+                    if row[0].strip().upper() in ("IPL", "INDIAN PREMIER LEAGUE"):
                         for idx, header in enumerate(headers):
                             if idx < len(row) and header in BATTING_HEADER_MAP:
-                                col_name = BATTING_HEADER_MAP[header]
                                 value = row[idx].strip()
-                                data[col_name] = value if value and value != "-" else ""
-                        
-                        logger.debug("      ✓ IPL batting stats extracted")
+                                data[BATTING_HEADER_MAP[header]] = value if value and value != "-" else ""
+                        logger.info("      ✓ IPL batting stats extracted (legacy)")
                         return
-        
+
         logger.debug("      ○ No IPL batting stats found")
 
     def _parse_bowling_stats(self, tables_data: list, data: dict) -> None:
         """
-        Parse IPL bowling stats from extracted table data.
-        The bowling table typically has columns like:
-        ["", "M", "Inn", "B", "Runs", "Wkts", "BBI", "BBM", "Econ", "Avg", "SR", "5W", "10W"]
+        Parse IPL bowling stats — same transposed approach as batting.
         """
         for table in tables_data:
             headers = table.get("headers", [])
-            
+            rows = table.get("rows", [])
+            if not rows:
+                continue
+
+            # --- TRANSPOSED LAYOUT ---
+            ipl_col = self._find_ipl_column(headers)
+            if ipl_col is not None:
+                row_labels = {row[0].strip() for row in rows if row}
+                is_bowling = bool(row_labels & BOWLING_ONLY_LABELS)
+                is_batting = bool(row_labels & BATTING_ONLY_LABELS)
+
+                if is_bowling and not is_batting:
+                    for row in rows:
+                        if not row or len(row) <= ipl_col:
+                            continue
+                        label = row[0].strip()
+                        value = row[ipl_col].strip()
+                        csv_col = BOWLING_ROW_MAP.get(label)
+                        if csv_col:
+                            data[csv_col] = value if value and value != "-" else ""
+                    logger.info("      ✓ IPL bowling stats extracted (transposed)")
+                    return
+
+            # --- LEGACY LAYOUT ---
             if not headers:
                 continue
-            
-            # Identify bowling table: has Wkts/Wickets
             if "Wkts" in headers or "Wickets" in headers:
-                for row in table.get("rows", []):
+                for row in rows:
                     if not row:
                         continue
-                    first_cell = row[0].upper().strip()
-                    if first_cell == "IPL" or "IPL" in first_cell:
+                    if row[0].strip().upper() in ("IPL", "INDIAN PREMIER LEAGUE"):
                         for idx, header in enumerate(headers):
                             if idx < len(row) and header in BOWLING_HEADER_MAP:
-                                col_name = BOWLING_HEADER_MAP[header]
                                 value = row[idx].strip()
-                                data[col_name] = value if value and value != "-" else ""
-                        
-                        logger.debug("      ✓ IPL bowling stats extracted")
+                                data[BOWLING_HEADER_MAP[header]] = value if value and value != "-" else ""
+                        logger.info("      ✓ IPL bowling stats extracted (legacy)")
                         return
-        
+
         logger.debug("      ○ No IPL bowling stats found")
+
+    @staticmethod
+    def _find_ipl_column(headers: list) -> int | None:
+        """Find the index of the 'IPL' column in a table header row."""
+        for idx, h in enumerate(headers):
+            if h.strip().upper() == "IPL":
+                return idx
+        return None
 
     # ─────────────────── Step 4: Download Images ───────────────────
 
