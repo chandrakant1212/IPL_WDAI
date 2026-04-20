@@ -1,41 +1,112 @@
-You are a cricket analytics expert. I have uploaded a CSV file containing IPL 2026 player data with batting and bowling statistics.
+You are a cricket data analyst. I am uploading a CSV file with IPL 2026 player statistics.
 
-Your task is to add a new column called `player_category` to this CSV and assign each player to one of three categories: **A**, **B**, or **C**.
+YOUR TASK: Add a column called "player_category" with values A, B, or C to every row. Return the full CSV as a downloadable file.
 
-## Classification Rules
+═══════════════════════════════════════════════════════
+STEP 1: CLASSIFY EACH PLAYER BY ROLE
+═══════════════════════════════════════════════════════
 
-Use the following performance-based criteria to categorize players. The goal is a **nearly equal distribution** across A, B, and C (aim for roughly 33% in each).
+Read the "role" column. Classify using the rules for that role below.
 
-### Category A — Elite Performers
-Players who are top contributors with strong match impact. Criteria (meet ANY of these):
-- Batting average (bat_average) ≥ 30 AND strike rate (bat_sr) ≥ 130
-- Bowling average (bowl_avg) ≤ 22 AND economy (bowl_eco) ≤ 8.0
-- 3+ centuries (bat_100s ≥ 3) OR 50+ wickets (bowl_wickets ≥ 50)
-- All-rounders: bat_runs ≥ 1000 AND bowl_wickets ≥ 30
+── BATSMAN / WK-BATSMAN ──
 
-### Category B — Solid Contributors
-Players who are reliable and consistent but not elite. Criteria (meet ANY of these after excluding Category A):
-- bat_average between 20 and 30 OR bat_runs ≥ 500
-- bowl_wickets between 15 and 49 OR bowl_avg between 22 and 30
-- bat_matches ≥ 30 (experienced players with decent records)
+  Category A (any ONE true):
+    • bat_runs >= 3000
+    • bat_100s >= 3
+    • bat_average >= 35 AND bat_sr >= 130 AND bat_innings >= 50
+    • bat_50s >= 20
 
-### Category C — Emerging / Limited Data
-Players who do not qualify for A or B. Includes:
-- Newcomers with few matches or limited stats
-- Players with below-average performance metrics
-- Players with mostly missing/blank statistics
+  Category B (any ONE true, after A is excluded):
+    • bat_runs >= 500
+    • bat_average >= 25 AND bat_innings >= 20
+    • bat_matches >= 50
 
-## Important Instructions
+  Category C:
+    • Everyone else (few matches, low stats, or mostly blank data)
 
-1. **Handle missing values**: If a stat field is blank or missing, do NOT penalize the player — treat it as insufficient data and lean toward Category C unless other stats clearly indicate A or B.
+── BOWLER ──
 
-2. **Balance the distribution**: After initial classification, if the distribution is imbalanced (e.g., too many C players), adjust thresholds slightly to achieve approximately equal distribution across all three categories. The final output should have roughly 30-36% of players in each category.
+  Category A (any ONE true):
+    • bowl_wickets >= 80
+    • bowl_avg <= 25 AND bowl_wickets >= 40
+    • bowl_5w >= 1 AND bowl_wickets >= 50
 
-3. **Consider all-rounders fairly**: Players who contribute with both bat and ball should be evaluated on their combined contribution.
+  Category B (any ONE true, after A is excluded):
+    • bowl_wickets >= 15
+    • bowl_avg <= 35 AND bowl_innings >= 20
+    • bowl_matches >= 30
 
-4. **Output format**: Return the complete CSV with the original columns intact and the new `player_category` column appended as the last column. Provide the CSV as a downloadable file.
+  Category C:
+    • Everyone else
 
-5. **Summary table**: After providing the CSV, also give me a summary showing:
-   - Count and percentage of players in each category
-   - Top 3 players in each category with their key stats
-   - A brief justification for borderline cases
+── BATTING ALLROUNDER ──
+
+  Category A (any ONE true):
+    • bat_runs >= 2000
+    • bat_runs >= 1000 AND bowl_wickets >= 20
+    • bat_average >= 30 AND bat_sr >= 135 AND bat_innings >= 40
+
+  Category B (any ONE true, after A is excluded):
+    • bat_runs >= 500
+    • bat_runs >= 300 AND bowl_wickets >= 5
+    • bat_matches >= 30
+
+  Category C:
+    • Everyone else
+
+── BOWLING ALLROUNDER ──
+
+  Category A (any ONE true):
+    • bowl_wickets >= 80
+    • bowl_wickets >= 40 AND bat_runs >= 500
+    • bowl_avg <= 25 AND bowl_wickets >= 30
+
+  Category B (any ONE true, after A is excluded):
+    • bowl_wickets >= 10
+    • bat_runs >= 200 AND bowl_wickets >= 5
+    • bowl_matches >= 20
+
+  Category C:
+    • Everyone else
+
+═══════════════════════════════════════════════════════
+STEP 2: BALANCE THE DISTRIBUTION
+═══════════════════════════════════════════════════════
+
+After Step 1, count players in A, B, C. The target is roughly equal (each 30-36% of total).
+
+If A has too many players:
+  - Move the WEAKEST A players (lowest runs or wickets) down to B.
+
+If C has too many players:
+  - Move the STRONGEST C players (highest runs or wickets among C) up to B.
+
+Keep adjusting until each category has between 30% and 36% of total players.
+
+DO NOT move obvious elite players (3000+ runs or 100+ wickets) out of A.
+DO NOT move players with blank/missing stats out of C.
+
+═══════════════════════════════════════════════════════
+STEP 3: OUTPUT
+═══════════════════════════════════════════════════════
+
+1. Return the COMPLETE CSV with ALL original columns unchanged. Append "player_category" as the LAST column.
+
+2. Provide it as a downloadable CSV file.
+
+3. After the file, show this summary:
+
+   a) Category distribution table (count + percentage for A, B, C)
+   b) Top 3 players in each category with key stats
+   c) Brief justification for any borderline decisions
+
+═══════════════════════════════════════════════════════
+IMPORTANT RULES — DO NOT VIOLATE
+═══════════════════════════════════════════════════════
+
+• Players with bat_runs >= 3000 MUST be Category A. No exceptions.
+• Players with bowl_wickets >= 80 MUST be Category A. No exceptions.
+• Players with ALL stats blank or zero MUST be Category C.
+• Missing/blank values = insufficient data, lean toward C.
+• Do NOT invent or modify any existing data values.
+• Do NOT remove or reorder any columns.
